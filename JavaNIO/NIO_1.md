@@ -4,7 +4,8 @@
 > Written with [StackEdit](https://stackedit.io/).
 
 ### 概念
-java.io 中最为核心的一个概念是流（Stream），面向流的编程。Java.io 中，一个流要么是输入流，
+**java.io 中最为核心的一个概念是流（Stream），面向流的编程。Java.io 中，一个流要么是输入流，要么是输出流，不可能同时既是输入流又是输出流。**
+> Java IO 中的 InputStream 和 OutputStream 都是抽象类，Java中是不可以多继承的，所以一个类
 **使用 NIO 写入 Java 原生数据类型并取出来**
 
 ```java
@@ -91,8 +92,8 @@ Channel 和 Buffer 之间的写入和写出关系如下：
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODI4ODcyODYwLC0xNzcwNDA0MDE0LDI2ND
-IzOTAwNCwtMTczMDc2OTIwNiwxMzc0NDIxMTI4LDE0OTM2Nzgy
-MiwtMTUwOTA5MTUxMCwtMTg3NjA0NzI2MiwyNjkwNTE2OTBdfQ
-==
+eyJoaXN0b3J5IjpbLTEwNzg5ODY0NjAsLTE3NzA0MDQwMTQsMj
+Y0MjM5MDA0LC0xNzMwNzY5MjA2LDEzNzQ0MjExMjgsMTQ5MzY3
+ODIyLC0xNTA5MDkxNTEwLC0xODc2MDQ3MjYyLDI2OTA1MTY5MF
+19
 -->
