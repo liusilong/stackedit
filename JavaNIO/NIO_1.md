@@ -71,10 +71,13 @@ public class Demo3{
 ```
 
 ### 注意
-FileChannel 中 有两个读写的方法
+`FileChannel` 中 有两个方法 分别是 `fileChannel.read(buffer)` 和`fileChannel.write(buffer)` 
+
+**read(buffer)** 方法的注释如下：
+> Reads a sequence of bytes from this channel into the given buffers.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQyNDIxODI1LDEzNzQ0MjExMjgsMTQ5Mz
+eyJoaXN0b3J5IjpbOTExOTkwMTI5LDEzNzQ0MjExMjgsMTQ5Mz
 Y3ODIyLC0xNTA5MDkxNTEwLC0xODc2MDQ3MjYyLDI2OTA1MTY5
 MF19
 -->
