@@ -29,22 +29,24 @@ class Demo1 {
 ```java
 class Demo2 {
   public void static void main(String[] args) {
+    // 从本地获取一个输入流
     FileInputStream inputStream = new FileInputStream("demo2.txt");
+    // 获取该输入流的文件通道
     FileChannel channel = inputStream.getChannel();
-    
+    // 创建一个大小为 512 字节的 ByteBuffer
     ByteBuffer buffer = ByteBuffer.allocate(512);
+    // 将
     channel.read(buffer);
     
     buffer.flip();
     
     while(buffer.hasRemaining()){
-    
+      System.out.println(buffer.get())
     }
-  
   }
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzA4NjI4NzM1LC0xODc2MDQ3MjYyLDI2OT
-A1MTY5MF19
+eyJoaXN0b3J5IjpbMTgyNDU5NjQyNCwtMTg3NjA0NzI2MiwyNj
+kwNTE2OTBdfQ==
 -->
