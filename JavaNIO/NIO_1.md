@@ -86,8 +86,11 @@ public class Demo3{
 Channel 和 Buffer 之间的写入和写出关系如下：
 
 ![channel_buffer](https://user-gold-cdn.xitu.io/2018/9/5/165a9dd0f80e150b?w=1007&h=1603&f=jpeg&s=169743)
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NzA0MDQwMTQsMjY0MjM5MDA0LC0xNz
-MwNzY5MjA2LDEzNzQ0MjExMjgsMTQ5MzY3ODIyLC0xNTA5MDkx
-NTEwLC0xODc2MDQ3MjYyLDI2OTA1MTY5MF19
+eyJoaXN0b3J5IjpbNjY5MTk0MDMwLC0xNzcwNDA0MDE0LDI2ND
+IzOTAwNCwtMTczMDc2OTIwNiwxMzc0NDIxMTI4LDE0OTM2Nzgy
+MiwtMTUwOTA5MTUxMCwtMTg3NjA0NzI2MiwyNjkwNTE2OTBdfQ
+==
 -->
