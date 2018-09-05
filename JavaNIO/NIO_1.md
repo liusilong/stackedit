@@ -10,12 +10,21 @@ class Demo1 {
 	public void static void main(String[] args) {
 		// 创建容量大小为 10 的 buffer
 		IntBuffer buffer = IntBuffer.allocate(10);
-		// 向 buffer 中添加
+		// 向 buffer 中添加元素
+		for(int i = 0; i < buffer.capacity(); i++) {
+			buffer.put(i);
+		}
+		// 反转 buffer
+		buffer.flip();
+		// 从 buffer 中取出元素
+		while(buffer.hasRemaining()) {
+			System
+		}
 	}
 
 }
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MjkyNzI1MDVdfQ==
+eyJoaXN0b3J5IjpbLTY3MTE4MTI2XX0=
 -->
