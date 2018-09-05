@@ -6,7 +6,7 @@
 **使用 NIO 写入 Java 原生数据类型并取出来**
 
 ```java
-class Demo1 {
+public class Demo1 {
 	public void static void main(String[] args) {
 		// 创建容量大小为 10 的 buffer
 		IntBuffer buffer = IntBuffer.allocate(10);
@@ -27,7 +27,7 @@ class Demo1 {
 **读取本地文件并将内容打印到控制台**
 
 ```java
-class Demo2 {
+public class Demo2 {
   public void static void main(String[] args) {
     // 从本地获取一个输入流
     FileInputStream inputStream = new FileInputStream("demo2.txt");
@@ -41,12 +41,12 @@ class Demo2 {
     buffer.flip();
     // 从 buffer 中取出数据
     while(buffer.hasRemaining()){
-      System.out.println(buffer.get())
+      System.out.print((char) buffer.get());
     }
   }
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDkwOTE1MTAsLTE4NzYwNDcyNjIsMj
-Y5MDUxNjkwXX0=
+eyJoaXN0b3J5IjpbMTQ5MzY3ODIyLC0xNTA5MDkxNTEwLC0xOD
+c2MDQ3MjYyLDI2OTA1MTY5MF19
 -->
