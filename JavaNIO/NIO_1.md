@@ -10,11 +10,12 @@ class Demo1 {
 	public void static void main(String[] args) {
 		// 创建容量大小为 10 的 buffer
 		IntBuffer buffer = IntBuffer.allocate(10);
+		
 	}
 
 }
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDI0NjI0MzJdfQ==
+eyJoaXN0b3J5IjpbLTg1NDg1MzI3OF19
 -->
