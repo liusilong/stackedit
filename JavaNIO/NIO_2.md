@@ -14,11 +14,14 @@ buffer 的 capacity 代表buffer中元素的数量。buffer 的 capacity 永远�
 IntBuffer buffer = IntBuffer.allocate(10);
 ```
 
+limit
+指的是 buffer 的第一个不能读写的元素的索引，buffer 的limit永远不为负数且永远不会大于capacity
+
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4NjA5NDczNCwzNDczOTYwMzMsNTY1OD
-QyNTE1XX0=
+eyJoaXN0b3J5IjpbLTEyMDA4MzU0NjQsMzQ3Mzk2MDMzLDU2NT
+g0MjUxNV19
 -->
