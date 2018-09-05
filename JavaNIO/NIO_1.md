@@ -75,9 +75,14 @@ public class Demo3{
 
 **read(buffer)** 方法的注释如下：
 > Reads a sequence of bytes from this channel into the given buffers.
+> 意思就是 将 channel 中的字节读入到 buffer 中来
+
+**write(buffer)** 方法的注释如下：
+> Writes a sequence of bytes to this channel from the given buffer.
+> 意思就是将 buffer 中的数据xie'ch
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTExOTkwMTI5LDEzNzQ0MjExMjgsMTQ5Mz
-Y3ODIyLC0xNTA5MDkxNTEwLC0xODc2MDQ3MjYyLDI2OTA1MTY5
-MF19
+eyJoaXN0b3J5IjpbLTE2NTU1OTM2MjgsMTM3NDQyMTEyOCwxND
+kzNjc4MjIsLTE1MDkwOTE1MTAsLTE4NzYwNDcyNjIsMjY5MDUx
+NjkwXX0=
 -->
