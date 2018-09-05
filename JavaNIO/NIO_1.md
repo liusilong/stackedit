@@ -23,6 +23,8 @@ class Demo1 {
 	}
 }
 ```
+
+**读取本地文件并将内容da'yin**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjY5MDUxNjkwXX0=
+eyJoaXN0b3J5IjpbLTEwOTY0NDU3NjAsMjY5MDUxNjkwXX0=
 -->
