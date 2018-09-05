@@ -18,13 +18,11 @@ class Demo1 {
 		buffer.flip();
 		// 从 buffer 中取出元素
 		while(buffer.hasRemaining()) {
-			System
+			System.out.println(buffer.get());
 		}
 	}
-
 }
-
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3MTE4MTI2XX0=
+eyJoaXN0b3J5IjpbMjY5MDUxNjkwXX0=
 -->
