@@ -30,12 +30,14 @@ class Demo1 {
 class Demo2 {
   public void static void main(String[] args) {
     FileInputStream inputStream = new FileInputStream("demo2.txt");
-da'yin**    FileChannel channel = inputStream.getChannel();
+    FileChannel channel = inputStream.getChannel();
     
+    
+  
   }
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5NDE3OTQ1OCwtMTg3NjA0NzI2MiwyNj
+eyJoaXN0b3J5IjpbLTc5NzYzNTAxOCwtMTg3NjA0NzI2MiwyNj
 kwNTE2OTBdfQ==
 -->
