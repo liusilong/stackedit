@@ -43,10 +43,11 @@ public class Demo2 {
     while(buffer.hasRemaining()){
       System.out.print((char) buffer.get());
     }
+    inputStream.close();
   }
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5MzY3ODIyLC0xNTA5MDkxNTEwLC0xOD
-c2MDQ3MjYyLDI2OTA1MTY5MF19
+eyJoaXN0b3J5IjpbLTY1OTk4MDAyNiwxNDkzNjc4MjIsLTE1MD
+kwOTE1MTAsLTE4NzYwNDcyNjIsMjY5MDUxNjkwXX0=
 -->
