@@ -24,7 +24,15 @@ class Demo1 {
 }
 ```
 
-**读取本地文件并将内容da'yin**
+**读取本地文件并将内容打印到控制台**
+
+```java
+class Demo2 {
+public void static void main(String[] args) {
+FileInputStream inputStream = new FileInputStream("demo2.txt");
+}
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTY0NDU3NjAsMjY5MDUxNjkwXX0=
+eyJoaXN0b3J5IjpbMTIxMDUyMTA3OCwyNjkwNTE2OTBdfQ==
 -->
