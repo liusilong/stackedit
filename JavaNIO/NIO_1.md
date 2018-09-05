@@ -32,12 +32,19 @@ class Demo2 {
     FileInputStream inputStream = new FileInputStream("demo2.txt");
     FileChannel channel = inputStream.getChannel();
     
+    ByteBuffer buffer = ByteBuffer.allocate(512);
+    channel.read(buffer);
     
+    buffer.flip();
+    
+    while(buffer.hasRemaining()){
+    
+    }
   
   }
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5NzYzNTAxOCwtMTg3NjA0NzI2MiwyNj
-kwNTE2OTBdfQ==
+eyJoaXN0b3J5IjpbMzA4NjI4NzM1LC0xODc2MDQ3MjYyLDI2OT
+A1MTY5MF19
 -->
