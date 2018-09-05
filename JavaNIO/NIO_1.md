@@ -54,11 +54,20 @@ public class Demo2 {
 public class Demo3{
 	public static void main(String[] args) throws Exception {
 		FileOutputStream outputStream = new FileOutputStream("demo3.txt");
+		FileChannel channel = outputStream.getChannel();
 		
+		byte[] bytes = "Hello Java NIO".getBytes();
+		ByteBuffer buffer = ByteBuffer.allocate(512);
+		for (int i = 0; i < bytes.length; i++) {
+			buffer.put(bytes[i]);
+		}
+		
+		buffer.flip();
+		channel.write(bu)
 	}
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NTM3NjgwMjUsMTQ5MzY3ODIyLC0xNT
-A5MDkxNTEwLC0xODc2MDQ3MjYyLDI2OTA1MTY5MF19
+eyJoaXN0b3J5IjpbMTE2NjE1MzY3MywxNDkzNjc4MjIsLTE1MD
+kwOTE1MTAsLTE4NzYwNDcyNjIsMjY5MDUxNjkwXX0=
 -->
