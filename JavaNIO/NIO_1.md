@@ -82,8 +82,10 @@ public class Demo3{
 > 意思就是将 buffer 中的数据写出到 channel 中
 
 **这两个方法都是基于 `Buffer` 而言的，`read` 就是 从外界将数据读进 `buffer` ；`write` 就是从 `buffer` 将数据写出去**
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjY0MjM5MDA0LC0xNzMwNzY5MjA2LDEzNz
-Q0MjExMjgsMTQ5MzY3ODIyLC0xNTA5MDkxNTEwLC0xODc2MDQ3
-MjYyLDI2OTA1MTY5MF19
+eyJoaXN0b3J5IjpbOTE2NzIyMjk2LDI2NDIzOTAwNCwtMTczMD
+c2OTIwNiwxMzc0NDIxMTI4LDE0OTM2NzgyMiwtMTUwOTA5MTUx
+MCwtMTg3NjA0NzI2MiwyNjkwNTE2OTBdfQ==
 -->
