@@ -19,7 +19,7 @@ Channel 指的是可以向其写入数据或是从中读取数据的对象。它
 
 与 Stream 不同的是，Channel 是双向的， 一个流只可能是 InputStream 或者是 OutputStream ， Channel 打开后则可以进行读取 、写入或是读写。
 
-由于 Channel 是双向的，因此它能更好的反映出底层操作系统的真实情况：在Linux系统
+由于 Channel 是双向的，因此它能更好的反映出底层操作系统的真实情况：在Linux系统中，底层操作系统的通道是双向的。
 
 ### 案例
 **使用 NIO 写入 Java 原生数据类型并取出来**
@@ -108,8 +108,8 @@ Channel 和 Buffer 之间的写入和写出关系如下：
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM0MDcxMDM0Miw5NTQ4MzQzMzcsLTE3Nz
-A0MDQwMTQsMjY0MjM5MDA0LC0xNzMwNzY5MjA2LDEzNzQ0MjEx
-MjgsMTQ5MzY3ODIyLC0xNTA5MDkxNTEwLC0xODc2MDQ3MjYyLD
-I2OTA1MTY5MF19
+eyJoaXN0b3J5IjpbNjE4ODUyNTcwLDk1NDgzNDMzNywtMTc3MD
+QwNDAxNCwyNjQyMzkwMDQsLTE3MzA3NjkyMDYsMTM3NDQyMTEy
+OCwxNDkzNjc4MjIsLTE1MDkwOTE1MTAsLTE4NzYwNDcyNjIsMj
+Y5MDUxNjkwXX0=
 -->
