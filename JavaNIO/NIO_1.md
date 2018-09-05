@@ -47,7 +47,18 @@ public class Demo2 {
   }
 }
 ```
+
+**使用 Buffer 将内容写入到本地文件中**
+
+```java
+public class Demo3{
+	public static void main(String[] args) throws Exception {
+		FileOutputStream outputStream = new FileOutputStream("demo3.txt");
+		
+	}
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1OTk4MDAyNiwxNDkzNjc4MjIsLTE1MD
-kwOTE1MTAsLTE4NzYwNDcyNjIsMjY5MDUxNjkwXX0=
+eyJoaXN0b3J5IjpbLTE2NTM3NjgwMjUsMTQ5MzY3ODIyLC0xNT
+A5MDkxNTEwLC0xODc2MDQ3MjYyLDI2OTA1MTY5MF19
 -->
