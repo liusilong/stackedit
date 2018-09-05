@@ -10,7 +10,14 @@
 
 **java.nio 中拥有3个核心的概念：`Selector`，`Channel`与 `Buffer`。在 Java NIO 中，我们是面向块（block）或是缓冲区（buffer）编程的。Buffer本身就是一块内存，底层实现上，他实际上是一个数组。数据的读、写都是通过 Buffer 来实现的。**
 
-Java中的8中原生数据类型除了 boolean 以外，其他的都有各自的Buffer类型，如 IntBuffer， 
+Java中的8中原生数据类型除了 boolean 以外，其他的都有各自的Buffer类型，如 IntBuffer， LongBuffer，CharBuffer 等。
+
+Channel 指的是可以向其写入数据或是从中读取数据的对象。它类似于Java IO 中的 Stream
+> 注意：不能是向 Channel 中写入数据还是从 Channel 中读取数据，都是通过 Buffer 来进行的。
+
+所有数据的读写都是通过 Buffer 来进行的，永远不会出现直接向 Channel 写入数据的情况，或是直接从 Channel 读取数据的情况。
+
+与 Stream 不同的是，Channel 是双向的， 一个流只可能是 InputStream 或者是 OutputStream ， Channel 打开后
 
 ### 案例
 **使用 NIO 写入 Java 原生数据类型并取出来**
@@ -99,8 +106,8 @@ Channel 和 Buffer 之间的写入和写出关系如下：
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwNzU0MDE3MSw5NTQ4MzQzMzcsLTE3Nz
-A0MDQwMTQsMjY0MjM5MDA0LC0xNzMwNzY5MjA2LDEzNzQ0MjEx
-MjgsMTQ5MzY3ODIyLC0xNTA5MDkxNTEwLC0xODc2MDQ3MjYyLD
-I2OTA1MTY5MF19
+eyJoaXN0b3J5IjpbNDEwNTM3MDI2LDk1NDgzNDMzNywtMTc3MD
+QwNDAxNCwyNjQyMzkwMDQsLTE3MzA3NjkyMDYsMTM3NDQyMTEy
+OCwxNDkzNjc4MjIsLTE1MDkwOTE1MTAsLTE4NzYwNDcyNjIsMj
+Y5MDUxNjkwXX0=
 -->
