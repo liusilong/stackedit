@@ -28,12 +28,14 @@ class Demo1 {
 
 ```java
 class Demo2 {
-public void static void main(String[] args) {
-FileInputStream inputStream = new FileInputStream("demo2.txt");
+  public void static void main(String[] args) {
+    FileInputStream inputStream = new FileInputStream("demo2.txt");
+da'yin**    FileChannel channel = inputStream.getChannel();
+    
+  }
 }
-}
-```da'yin**
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NzYwNDcyNjIsMTIxMDUyMTA3OCwyNj
+eyJoaXN0b3J5IjpbLTY5NDE3OTQ1OCwtMTg3NjA0NzI2MiwyNj
 kwNTE2OTBdfQ==
 -->
