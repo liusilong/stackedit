@@ -9,7 +9,7 @@
 
 **java.nio 中拥有3个核心的概念：`Selector`，`Channel`与 `Buffer`。在 Java NIO 中，我们是面向块（block）或是缓冲区（buffer）编程的。Buffer本身就是一块内存，底层实现上，他实际上是一个数组。数据的读、写都是通过 Buffer 来实现的。**
 
-
+### 案例
 **使用 NIO 写入 Java 原生数据类型并取出来**
 
 ```java
@@ -96,8 +96,8 @@ Channel 和 Buffer 之间的写入和写出关系如下：
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE2OTY5NTc3NywtMTc3MDQwNDAxNCwyNj
-QyMzkwMDQsLTE3MzA3NjkyMDYsMTM3NDQyMTEyOCwxNDkzNjc4
-MjIsLTE1MDkwOTE1MTAsLTE4NzYwNDcyNjIsMjY5MDUxNjkwXX
-0=
+eyJoaXN0b3J5IjpbOTU0ODM0MzM3LC0xNzcwNDA0MDE0LDI2ND
+IzOTAwNCwtMTczMDc2OTIwNiwxMzc0NDIxMTI4LDE0OTM2Nzgy
+MiwtMTUwOTA5MTUxMCwtMTg3NjA0NzI2MiwyNjkwNTE2OTBdfQ
+==
 -->
