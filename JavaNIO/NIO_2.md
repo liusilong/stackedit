@@ -6,6 +6,7 @@
 ## Buffer
 ### Buffer 中 3 个重要的控制状态的变量 position、limit与capacity
 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTY1ODQyNTE1XX0=
+eyJoaXN0b3J5IjpbMzQ3Mzk2MDMzLDU2NTg0MjUxNV19
 -->
