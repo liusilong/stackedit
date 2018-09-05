@@ -35,11 +35,11 @@ class Demo2 {
     FileChannel channel = inputStream.getChannel();
     // 创建一个大小为 512 字节的 ByteBuffer
     ByteBuffer buffer = ByteBuffer.allocate(512);
-    // 将
+    // 将 channel 中的数据写入到 buffer 中去
     channel.read(buffer);
-    
+    // 反转 buffer
     buffer.flip();
-    
+    // 从 buffer 中取出数据
     while(buffer.hasRemaining()){
       System.out.println(buffer.get())
     }
@@ -47,6 +47,6 @@ class Demo2 {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyNDU5NjQyNCwtMTg3NjA0NzI2MiwyNj
-kwNTE2OTBdfQ==
+eyJoaXN0b3J5IjpbLTE1MDkwOTE1MTAsLTE4NzYwNDcyNjIsMj
+Y5MDUxNjkwXX0=
 -->
