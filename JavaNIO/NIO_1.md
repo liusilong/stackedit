@@ -63,11 +63,15 @@ public class Demo3{
 		}
 		
 		buffer.flip();
-		channel.write(bu)
+		
+		channel.write(buffer);
+		outputStream.close();
 	}
 }
 ```
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE2NjE1MzY3MywxNDkzNjc4MjIsLTE1MD
+eyJoaXN0b3J5IjpbMTM3NDQyMTEyOCwxNDkzNjc4MjIsLTE1MD
 kwOTE1MTAsLTE4NzYwNDcyNjIsMjY5MDUxNjkwXX0=
 -->
