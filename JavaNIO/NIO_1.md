@@ -4,10 +4,13 @@
 > Written with [StackEdit](https://stackedit.io/).
 
 ### 概念
+
 **java.io 中最为核心的一个概念是流（Stream），面向流的编程。Java.io 中，一个流要么是输入流，要么是输出流，不可能同时既是输入流又是输出流。**
 > Java IO 中的 InputStream 和 OutputStream 都是抽象类，Java中是不可以多继承的，所以一个类不可能同时继承这两个类
 
 **java.nio 中拥有3个核心的概念：`Selector`，`Channel`与 `Buffer`。在 Java NIO 中，我们是面向块（block）或是缓冲区（buffer）编程的。Buffer本身就是一块内存，底层实现上，他实际上是一个数组。数据的读、写都是通过 Buffer 来实现的。**
+
+Java中的8中原生数据类型除了 boolean 以外，其他的都有各自的Buffer类型，如 IntBuffer， 
 
 ### 案例
 **使用 NIO 写入 Java 原生数据类型并取出来**
@@ -96,8 +99,8 @@ Channel 和 Buffer 之间的写入和写出关系如下：
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTU0ODM0MzM3LC0xNzcwNDA0MDE0LDI2ND
-IzOTAwNCwtMTczMDc2OTIwNiwxMzc0NDIxMTI4LDE0OTM2Nzgy
-MiwtMTUwOTA5MTUxMCwtMTg3NjA0NzI2MiwyNjkwNTE2OTBdfQ
-==
+eyJoaXN0b3J5IjpbMTIwNzU0MDE3MSw5NTQ4MzQzMzcsLTE3Nz
+A0MDQwMTQsMjY0MjM5MDA0LC0xNzMwNzY5MjA2LDEzNzQ0MjEx
+MjgsMTQ5MzY3ODIyLC0xNTA5MDkxNTEwLC0xODc2MDQ3MjYyLD
+I2OTA1MTY5MF19
 -->
