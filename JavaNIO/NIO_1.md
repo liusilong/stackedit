@@ -79,10 +79,12 @@ public class Demo3{
 
 **write(buffer)** 方法的注释如下：
 > Writes a sequence of bytes to this channel from the given buffer.
-> 意思就是将 buffer 中的数据xie'ch
+> 意思就是将 buffer 中的数据写出到 channel 中
+
+**这两个方法都是基于 Buffer 而言的，read 就是 从外界将数据读进 buffer ；write 就是从 buffer 将数据写出去**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NTU1OTM2MjgsMTM3NDQyMTEyOCwxND
+eyJoaXN0b3J5IjpbLTE5MjQ4MDkzNDQsMTM3NDQyMTEyOCwxND
 kzNjc4MjIsLTE1MDkwOTE1MTAsLTE4NzYwNDcyNjIsMjY5MDUx
 NjkwXX0=
 -->
