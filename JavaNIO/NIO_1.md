@@ -83,9 +83,11 @@ public class Demo3{
 
 **这两个方法都是基于 `Buffer` 而言的，`read` 就是 从外界将数据读进 `buffer` ；`write` 就是从 `buffer` 将数据写出去**
 
+Channel 和 Buffer 之间的写入和写出关系如下：
 
+![](https://user-gold-cdn.xitu.io/2018/9/5/165a9dd0f80e150b?w=1007&h=1603&f=jpeg&s=169743)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTE2NzIyMjk2LDI2NDIzOTAwNCwtMTczMD
+eyJoaXN0b3J5IjpbMzc0NjU1NDM4LDI2NDIzOTAwNCwtMTczMD
 c2OTIwNiwxMzc0NDIxMTI4LDE0OTM2NzgyMiwtMTUwOTA5MTUx
 MCwtMTg3NjA0NzI2MiwyNjkwNTE2OTBdfQ==
 -->
