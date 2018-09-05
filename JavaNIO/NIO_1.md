@@ -70,8 +70,11 @@ public class Demo3{
 }
 ```
 
+### 注意
+FileChannel 中 有两个读写的方法
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3NDQyMTEyOCwxNDkzNjc4MjIsLTE1MD
-kwOTE1MTAsLTE4NzYwNDcyNjIsMjY5MDUxNjkwXX0=
+eyJoaXN0b3J5IjpbOTQyNDIxODI1LDEzNzQ0MjExMjgsMTQ5Mz
+Y3ODIyLC0xNTA5MDkxNTEwLC0xODc2MDQ3MjYyLDI2OTA1MTY5
+MF19
 -->
