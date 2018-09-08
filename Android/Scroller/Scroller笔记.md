@@ -90,21 +90,22 @@ Scrller scroller = new Scroller(context);
 private void smoothScrollTo(int destX, int destY) {
 	int scrollX = getScrollX();
 	int delta = destX - scrollX;
-	scroller.start(scrollx, 0, delta, 0, 1000);
+	scroller.startScroll(scrollx, 0, delta, 0, 1000);
 	invalidate();
 }
 
 @Override
 public void computeScroll() {
 	if(scroller.computeScrollOffset()) {
-		scrollTo(sc
+		scrollTo(scroller.getCurrX(), scroller.getCurrY());
+		postInvalidata();
 	}
 }
-
-
 ```
+scroll
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODA4NzQ4MTc5LDczODU4Njg2OSwxNjA0Mj
-M0NjUsLTE0MjQ2MDIzOTAsLTU5MDUzMjY2MywtMjA3NzE4ODM1
-N119
+eyJoaXN0b3J5IjpbLTE1Mzk0NTgyMjcsNzM4NTg2ODY5LDE2MD
+QyMzQ2NSwtMTQyNDYwMjM5MCwtNTkwNTMyNjYzLC0yMDc3MTg4
+MzU3XX0=
 -->
