@@ -53,9 +53,10 @@ scrollBy 方法是相对于当前位置滑动，当前位置为 mScrollX， 该�
 
 **scrollTo 和 scrollBy 只能改变 View 内容的位置而不能改变 View 在布局中的位置。**
 
-下面我们以图示的方式来说明 mScrollX 和
+下面我们以图示的方式来说明 mScrollX 和 mScrollY 这两个属相的变换规则。
+> 图中实线框代表 View 而蓝色的虚线框代表 Vie
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUzOTI0MzA4OSwtNTkwNTMyNjYzLC0yMD
-c3MTg4MzU3XX0=
+eyJoaXN0b3J5IjpbMjQzNTIwMTQ5LC01OTA1MzI2NjMsLTIwNz
+cxODgzNTddfQ==
 -->
