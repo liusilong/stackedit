@@ -42,7 +42,7 @@ Scroller 本身无法让 View 滑动，他需要和 View 的 computeScroll 方�
   scrollTo(mScrollX + x, mScrollY + y);  
 }
 ```
-scrollBy 方法是相对位置
+scrollBy 方法是相对于当前位置滑动，当前位置为 mScrollX， 该变量可以同个 getScrollX() 方法获取。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODkxODMwMTAyLC0yMDc3MTg4MzU3XX0=
+eyJoaXN0b3J5IjpbNDQ1NzcxMjQzLC0yMDc3MTg4MzU3XX0=
 -->
