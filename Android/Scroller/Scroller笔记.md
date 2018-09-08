@@ -46,9 +46,11 @@ Scroller 本身无法让 View 滑动，他需要和 View 的 computeScroll 方�
 scrollBy 方法是相对于当前位置滑动，当前位置为 mScrollX， 该变量可以同个 getScrollX() 方法获取。
 
 #### mScrollX 、mScrollY
-这两个变量分别可以通过 getScrollX() h
+这两个变量分别可以通过 getScrollX() 和 getScrollY() 方法来获取。
+
+mScrollX 的值总是等于 View 左边缘和 View 内容左边缘在水平方向的距离。
+MScrollY 的值总是等于 View 上边缘和 View 内容上边缘在竖直方向的距离。
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5Mjg5NzU3MzcsLTIwNzcxODgzNTddfQ
-==
+eyJoaXN0b3J5IjpbMjAxOTgyMjEwNCwtMjA3NzE4ODM1N119
 -->
