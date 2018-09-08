@@ -82,9 +82,20 @@ mScrollY = -100
 ![](https://user-gold-cdn.xitu.io/2018/9/8/165b89932ef4756a?w=922&h=566&f=png&s=51788)
 
 ### Scroller
-下面说说 Scroller 的gu
+下面说说 Scroller 的固定用法
+
+```java
+Scrller scroller = new Scroller(context);
+
+private void smoothScrollTo(int destX, int destY) {
+	int scrollX = getScrollX();
+	int delta = destX - scrollX;
+	
+}
+
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1NTQ2MjE2LDczODU4Njg2OSwxNjA0Mj
-M0NjUsLTE0MjQ2MDIzOTAsLTU5MDUzMjY2MywtMjA3NzE4ODM1
-N119
+eyJoaXN0b3J5IjpbMTkxMjEzNTg3MCw3Mzg1ODY4NjksMTYwND
+IzNDY1LC0xNDI0NjAyMzkwLC01OTA1MzI2NjMsLTIwNzcxODgz
+NTddfQ==
 -->
