@@ -76,7 +76,10 @@ mScrollX = -100
 mScrollY = 100
 
 ![](https://user-gold-cdn.xitu.io/2018/9/8/165b8979af09e08d?w=904&h=566&f=png&s=52081)
+
+mScrollY = -100
+![](https://user-gold-cdn.xitu.io/2018/9/8/165b89932ef4756a?w=922&h=566&f=png&s=51788)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTMxNDA4NzU2LDE2MDQyMzQ2NSwtMTQyND
+eyJoaXN0b3J5IjpbODU1NTAzODE1LDE2MDQyMzQ2NSwtMTQyND
 YwMjM5MCwtNTkwNTMyNjYzLC0yMDc3MTg4MzU3XX0=
 -->
