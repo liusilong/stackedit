@@ -16,20 +16,33 @@ Scroller 本身无法让 View 滑动，他需要和 View 的 computeScroll 方�
  * Set the scrolled position of your view. This will cause a call to * {@link #onScrollChanged(int, int,    	 	int, int)} and the view will be  invalidated. 
  * @param x the x position to scroll to  
  * @param y the y position to scroll to  
- */public void scrollTo(int x, int y) {  
+ */
+ public void scrollTo(int x, int y) {  
   if (mScrollX != x || mScrollY != y) {  
   int oldX = mScrollX;  
- int oldY = mScrollY;  
+  int oldY = mScrollY;  
   mScrollX = x;  
   mScrollY = y;  
   invalidateParentCaches();  
   onScrollChanged(mScrollX, mScrollY, oldX, oldY);  
- if (!awakenScrollBars()) {  
+  if (!awakenScrollBars()) {  
   postInvalidateOnAnimation();  
   }  
  }}
 ```
-scrollTo 方法方法中接受两个参数，x 和 y , 这两个参数代表 View 将要滑动到的w
+`scrollTo` 方法方法中接受两个参数，`x` 和 `y` , 这两个参数代表 View 将要滑动到的位置（绝对位置）。
+
+```java
+/**  
+ * Move the scrolled position of your view. This will cause a call to * {@link #onScrollChanged(int, int, int, int)} and the view will be  
+ * invalidated. * @param x the amount of pixels to scroll by horizontally  
+ * @param y the amount of pixels to scroll by vertically  
+ */
+ public void scrollBy(int x, int y) {  
+  scrollTo(mScrollX + x, mScrollY + y);  
+}
+```
+scrollBy 方法是相对位置
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzU4OTQzNzMxLC0yMDc3MTg4MzU3XX0=
+eyJoaXN0b3J5IjpbODkxODMwMTAyLC0yMDc3MTg4MzU3XX0=
 -->
