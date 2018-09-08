@@ -90,7 +90,7 @@ Scrller scroller = new Scroller(context);
 private void smoothScrollTo(int destX, int destY) {
 	int scrollX = getScrollX();
 	int delta = destX - scrollX;
-	scroller.startScroll(scrollx, 0, delta, 0, 1000);
+	scroller.startScroll(scrollX, 0, delta, 0, 1000);
 	invalidate();
 }
 
@@ -102,10 +102,15 @@ public void computeScroll() {
 	}
 }
 ```
-scroll
+Scroller 的 startScroll(...) 方法的部分代码如下
 
+```java
+public void startScroll(int startX, int startY, int dx, int dy, int duration) {
+...
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1Mzk0NTgyMjcsNzM4NTg2ODY5LDE2MD
-QyMzQ2NSwtMTQyNDYwMjM5MCwtNTkwNTMyNjYzLC0yMDc3MTg4
-MzU3XX0=
+eyJoaXN0b3J5IjpbMTQ2MjI5Mjg3LDczODU4Njg2OSwxNjA0Mj
+M0NjUsLTE0MjQ2MDIzOTAsLTU5MDUzMjY2MywtMjA3NzE4ODM1
+N119
 -->
