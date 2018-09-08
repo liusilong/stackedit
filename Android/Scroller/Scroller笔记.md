@@ -9,8 +9,8 @@ Scroller 是弹性滑动对象，当我们在使用 View 的 scrollTo/scrollBy �
 
 Scroller 本身无法让 View 滑动，他需要和 View 的 computeScroll 方法配合使用才能共同完成这个功能。
 
-
+我们先来看看 View 的 scrollTo/s
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE2NjYwMzczMV19
+eyJoaXN0b3J5IjpbMTUzODAzNTQ0OF19
 -->
