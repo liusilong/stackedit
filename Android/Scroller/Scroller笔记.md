@@ -11,6 +11,7 @@ Scroller 本身无法让 View 滑动，他需要和 View 的 computeScroll 方�
 
 我们先来看看 View 的 scrollTo/scrollBy 方法的实现
 
+### scrollTo 、scrollBy
 ```java
 /**  
  * Set the scrolled position of your view. This will cause a call to * {@link #onScrollChanged(int, int,    	 	int, int)} and the view will be  invalidated. 
@@ -43,6 +44,11 @@ Scroller 本身无法让 View 滑动，他需要和 View 的 computeScroll 方�
 }
 ```
 scrollBy 方法是相对于当前位置滑动，当前位置为 mScrollX， 该变量可以同个 getScrollX() 方法获取。
+
+#### mScrollX 、mScrollY
+这两个变量分别可以通过 getScrollX() h
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQ1NzcxMjQzLC0yMDc3MTg4MzU3XX0=
+eyJoaXN0b3J5IjpbLTE5Mjg5NzU3MzcsLTIwNzcxODgzNTddfQ
+==
 -->
