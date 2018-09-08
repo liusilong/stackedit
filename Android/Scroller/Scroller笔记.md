@@ -56,7 +56,8 @@ scrollBy 方法是相对于当前位置滑动，当前位置为 mScrollX， 该�
 下面我们以图示的方式来说明 mScrollX 和 mScrollY 这两个属相的变换规则。
 > 图中实线框代表 View 而蓝色的虚线框代表 View 的内容
 > 比方说 Button 是代表 View 而 Button 上的 text 则代表 View 的内容
-> 我们以 V 代表 View 左上角的点，C 代表 View 内容的左上角的dia
+> 我们以 V 代表 View 左上角的点，C 代表 View 内容的左上角的点，
+> Vx、Vy、Cx、Cy 分别代表点 V 和点 C 的横纵坐标点
 
 mScrollX = 0
 mScrollY = 0
@@ -64,6 +65,6 @@ mScrollY = 0
 ![](https://user-gold-cdn.xitu.io/2018/9/8/165b87c9cd0ca944?w=360&h=280&f=png&s=18065)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MjgzNzYxNzQsLTU5MDUzMjY2MywtMj
+eyJoaXN0b3J5IjpbLTE0MjQ2MDIzOTAsLTU5MDUzMjY2MywtMj
 A3NzE4ODM1N119
 -->
