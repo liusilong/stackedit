@@ -9,7 +9,7 @@ Scroller 是弹性滑动对象，当我们在使用 View 的 scrollTo/scrollBy �
 
 Scroller 本身无法让 View 滑动，他需要和 View 的 computeScroll 方法配合使用才能共同完成这个功能。
 
-我们先来看看 View 的 scrollTo/scrollBy 方法的部分实现
+我们先来看看 View 的 scrollTo/scrollBy 方法的实现
 
 ```java
 /**  
@@ -29,7 +29,7 @@ Scroller 本身无法让 View 滑动，他需要和 View 的 computeScroll 方�
   }  
  }}
 ```
-
+scrollTo 方法方法中接受两个参数，x 和 y , 这两个参数代表 View 将要滑动到的w
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzcxODgzNTddfQ==
+eyJoaXN0b3J5IjpbNzU4OTQzNzMxLC0yMDc3MTg4MzU3XX0=
 -->
