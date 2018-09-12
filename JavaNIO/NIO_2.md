@@ -18,11 +18,11 @@ IntBuffer buffer = IntBuffer.allocate(10);
 
 ### limit
 
-指的是 **buffer** 的第一个不能读写的元素的索引，**buffer** 的`limit`永远不为负数且永远不会超过`capacity`
+指的是 **buffer** 的**第一个不能读写的元素的索引**，**buffer** 的`limit`永远不为负数且永远不会超过`capacity`
 
 ### position
 
-指的是下一个将要去读写的元素的索引。**buffer** 的 `position` 永远不为负数且永远不会超过`limit`
+指的是**下一个**将要去读写的元素的索引。**buffer** 的 `position` 永远不为负数且永远不会超过`limit`
 
 ### Buffer 各个时期的状态
 > 假设我们初始化了一个长度为 6 的 IntBuffer ：`IntBuffer.allocate(６);`
@@ -30,10 +30,11 @@ IntBuffer buffer = IntBuffer.allocate(10);
 
 初始化状态如下：
 
+![](https://user-gold-cdn.xitu.io/2018/9/12/165ce3107f18c861?w=1407&h=487&f=jpeg&s=100902)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODIyNzUxNzYsLTEwNTY1ODk1OTQsOD
-IyNDU3NjMyLDE4MjYzMDEwNCwxMTg1NjA5OTEyLDQ2MDMwNTI4
-NSwzNDczOTYwMzMsNTY1ODQyNTE1XX0=
+eyJoaXN0b3J5IjpbLTYwNDQwODEwNCwtMTA1NjU4OTU5NCw4Mj
+I0NTc2MzIsMTgyNjMwMTA0LDExODU2MDk5MTIsNDYwMzA1Mjg1
+LDM0NzM5NjAzMyw1NjU4NDI1MTVdfQ==
 -->
