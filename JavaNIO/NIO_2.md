@@ -24,11 +24,13 @@ IntBuffer buffer = IntBuffer.allocate(10);
 
 指的是下一个将要去读写的元素的索引。**buffer** 的 `position` 永远不为负数且永远不会超过`limit`
 
+### Buffer 各个时期的状态
+> 假设我们初始化了一个长度为 6 的 IntBuffer ：`IntBuffer.allocate(10);`
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNTY1ODk1OTQsODIyNDU3NjMyLDE4Mj
-YzMDEwNCwxMTg1NjA5OTEyLDQ2MDMwNTI4NSwzNDczOTYwMzMs
-NTY1ODQyNTE1XX0=
+eyJoaXN0b3J5IjpbLTUzMjMwMDMyNCwtMTA1NjU4OTU5NCw4Mj
+I0NTc2MzIsMTgyNjMwMTA0LDExODU2MDk5MTIsNDYwMzA1Mjg1
+LDM0NzM5NjAzMyw1NjU4NDI1MTVdfQ==
 -->
