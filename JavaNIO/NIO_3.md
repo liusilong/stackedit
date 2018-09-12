@@ -15,10 +15,27 @@ Buffer 的 clear 方法会将 limit 设置为 capacity ，将 position 设置为
 - 将 Buffer 的 设置为 position
 - 将 Buffer 的 position 设置为 0
 
+```java
+public final Buffer flip() {  
+    limit = position;  
+    position = 0;  
+    mark = -1;  
+    return this;  
+}
+```
+
 ### rewind
 - 将 Buffer 的 position 设置为 0
 - limit 不变
-- 也就是让当前 Buf
+- 也就是可以重新从当前 Buffer 中读取数据
+
+```java
+public final Buffer rewind() {  
+    position = 0;  
+    mark = -1;  
+    return this;  
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTMzMDU1MjcsMTAxMDAzOTgwNl19
+eyJoaXN0b3J5IjpbLTE5ODgxNzA0MDAsMTAxMDAzOTgwNl19
 -->
