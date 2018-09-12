@@ -11,6 +11,12 @@ mark、position、limit、capacity 之前的关系
 ### clear
 Buffer 的 clear 方法会将 limit 设置为 capacity ，将 position 设置为 0，也就是将 Buffer 恢复为初始化的状态。
 
+### flip
+- 将 Buffer 的 设置为 position
+- 将 Buffer 的 position 设置为 0
+
+### rewind
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4Mjg5MzEzNDAsMTAxMDAzOTgwNl19
+eyJoaXN0b3J5IjpbMTg4MTgwOTY2LDEwMTAwMzk4MDZdfQ==
 -->
