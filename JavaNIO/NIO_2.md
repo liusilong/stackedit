@@ -44,8 +44,10 @@ IntBuffer buffer = IntBuffer.allocate(10);
 执行 Buffer.flip() 方法，这个时候是可以从 Buffer 中取数据
 
 ![](https://user-gold-cdn.xitu.io/2018/9/12/165ce30ccc88e054?w=1345&h=466&f=jpeg&s=95467)
+
+这个时候如果我们再次执行 Buffer.flip() 方法
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODE0Njc3MjEsLTEwNTY1ODk1OTQsOD
-IyNDU3NjMyLDE4MjYzMDEwNCwxMTg1NjA5OTEyLDQ2MDMwNTI4
-NSwzNDczOTYwMzMsNTY1ODQyNTE1XX0=
+eyJoaXN0b3J5IjpbLTEzNDE1OTc0MSwtMTA1NjU4OTU5NCw4Mj
+I0NTc2MzIsMTgyNjMwMTA0LDExODU2MDk5MTIsNDYwMzA1Mjg1
+LDM0NzM5NjAzMyw1NjU4NDI1MTVdfQ==
 -->
