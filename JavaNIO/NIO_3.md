@@ -46,14 +46,14 @@ public final Buffer rewind() {
 }
 ```
 
-每个Buffer都是可读的，但并不是每个Buffer都是可写的，如果在只读的Buffer执行了写入操作则会跑出 ReadOnlyBufferException 异常
+**每个Buffer都是可读的，但并不是每个Buffer都是可写的，如果在只读的Buffer执行了写入操作则会跑出 `ReadOnlyBufferException` 异常**
 
-只读 Buffer 中的内容是不可变的，但是它的 mark，position，limit 可以改变
+**只读 Buffer 中的内容是不可变的，但是它的 mark，position，limit 可以改变**
 
-可以通过调用 `Buffer.isReadOnly()` 方法来判读当前Buffer是否为只读Buffer
+**可以通过调用 `Buffer.isReadOnly()` 方法来判读当前Buffer是否为只读Buffer**
 
-
-Buffer 本身并不是线程安全的
+**Buffer 本身并不是线程安全的**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDAzMzI3MTMsMTAxMDAzOTgwNl19
+eyJoaXN0b3J5IjpbLTExNjY4OTY0MzEsNDAzMzI3MTMsMTAxMD
+AzOTgwNl19
 -->
