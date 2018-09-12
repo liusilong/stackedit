@@ -32,7 +32,7 @@ IntBuffer buffer = IntBuffer.allocate(10);
 
 ![](https://user-gold-cdn.xitu.io/2018/9/12/165ce3107f18c861?w=1407&h=487&f=jpeg&s=100902)
 
-**向 Buffer 中 put 2 个元素**
+**向 Buffer 中 put 两个元素**
 
 ![](https://user-gold-cdn.xitu.io/2018/9/12/165ce30b68e8ff2a?w=1335&h=524&f=jpeg&s=95761)
 
@@ -56,8 +56,8 @@ public final Buffer flip() {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxOTQxOTQ2NywyMTI0MzM3NDQ1LC0xMz
-QxNTk3NDEsLTEwNTY1ODk1OTQsODIyNDU3NjMyLDE4MjYzMDEw
-NCwxMTg1NjA5OTEyLDQ2MDMwNTI4NSwzNDczOTYwMzMsNTY1OD
-QyNTE1XX0=
+eyJoaXN0b3J5IjpbLTIwNDcwMzUxNzMsMTgxOTQxOTQ2NywyMT
+I0MzM3NDQ1LC0xMzQxNTk3NDEsLTEwNTY1ODk1OTQsODIyNDU3
+NjMyLDE4MjYzMDEwNCwxMTg1NjA5OTEyLDQ2MDMwNTI4NSwzND
+czOTYwMzMsNTY1ODQyNTE1XX0=
 -->
