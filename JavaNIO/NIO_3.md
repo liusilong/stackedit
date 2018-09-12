@@ -5,7 +5,10 @@
 
 ## 源码分析
 
+mark、position、limit、capacity 之前的关系
 > 0 <= mark <= position <= limit <= capacity
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk0NzU5MzExOF19
+eyJoaXN0b3J5IjpbMTAxMDAzOTgwNl19
 -->
