@@ -45,8 +45,10 @@ IntBuffer buffer = IntBuffer.allocate(10);
 
 ![](https://user-gold-cdn.xitu.io/2018/9/12/165ce30ccc88e054?w=1345&h=466&f=jpeg&s=95467)
 
+Buffer#
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyNDMzNzQ0NSwtMTM0MTU5NzQxLC0xMD
-U2NTg5NTk0LDgyMjQ1NzYzMiwxODI2MzAxMDQsMTE4NTYwOTkx
-Miw0NjAzMDUyODUsMzQ3Mzk2MDMzLDU2NTg0MjUxNV19
+eyJoaXN0b3J5IjpbLTE3NDMwNDUyNTAsMjEyNDMzNzQ0NSwtMT
+M0MTU5NzQxLC0xMDU2NTg5NTk0LDgyMjQ1NzYzMiwxODI2MzAx
+MDQsMTE4NTYwOTkxMiw0NjAzMDUyODUsMzQ3Mzk2MDMzLDU2NT
+g0MjUxNV19
 -->
