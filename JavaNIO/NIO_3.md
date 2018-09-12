@@ -16,7 +16,9 @@ Buffer 的 clear 方法会将 limit 设置为 capacity ，将 position 设置为
 - 将 Buffer 的 position 设置为 0
 
 ### rewind
-
+- 将 Buffer 的 position 设置为 0
+- limit 不变
+- 也就是让当前 Buf
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg4MTgwOTY2LDEwMTAwMzk4MDZdfQ==
+eyJoaXN0b3J5IjpbLTE3MTMzMDU1MjcsMTAxMDAzOTgwNl19
 -->
