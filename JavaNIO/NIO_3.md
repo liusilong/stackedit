@@ -51,6 +51,9 @@ public final Buffer rewind() {
 只读 Buffer 中的内容是不可变的，但是它的 mark，position，limit 可以改变
 
 可以通过调用 `Buffer.isReadOnly()` 方法来判读当前Buffer是否为只读Buffer
+
+
+Buffer 本身并不是线程安全的
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzNDM0NDcwNSwxMDEwMDM5ODA2XX0=
+eyJoaXN0b3J5IjpbNDAzMzI3MTMsMTAxMDAzOTgwNl19
 -->
