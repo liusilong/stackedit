@@ -45,9 +45,8 @@ IntBuffer buffer = IntBuffer.allocate(10);
 
 ![](https://user-gold-cdn.xitu.io/2018/9/12/165ce30ccc88e054?w=1345&h=466&f=jpeg&s=95467)
 
-这个时候如果我们再次执行 Buffer.flip() 方法
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDE1OTc0MSwtMTA1NjU4OTU5NCw4Mj
-I0NTc2MzIsMTgyNjMwMTA0LDExODU2MDk5MTIsNDYwMzA1Mjg1
-LDM0NzM5NjAzMyw1NjU4NDI1MTVdfQ==
+eyJoaXN0b3J5IjpbMjEyNDMzNzQ0NSwtMTM0MTU5NzQxLC0xMD
+U2NTg5NTk0LDgyMjQ1NzYzMiwxODI2MzAxMDQsMTE4NTYwOTkx
+Miw0NjAzMDUyODUsMzQ3Mzk2MDMzLDU2NTg0MjUxNV19
 -->
