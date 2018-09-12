@@ -32,9 +32,15 @@ IntBuffer buffer = IntBuffer.allocate(10);
 
 ![](https://user-gold-cdn.xitu.io/2018/9/12/165ce3107f18c861?w=1407&h=487&f=jpeg&s=100902)
 
+像 Buffer 中 put 2 个元素
 
+![](https://user-gold-cdn.xitu.io/2018/9/12/165ce30ccc88e054?w=1345&h=466&f=jpeg&s=95467)
+
+再次像 Buffer 中 put 两个元素
+
+![](https://user-gold-cdn.xitu.io/2018/9/12/165ce30fa8c9b136?w=1347&h=489&f=jpeg&s=95984)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwNDQwODEwNCwtMTA1NjU4OTU5NCw4Mj
+eyJoaXN0b3J5IjpbMTA3NjM4ODg4NywtMTA1NjU4OTU5NCw4Mj
 I0NTc2MzIsMTgyNjMwMTA0LDExODU2MDk5MTIsNDYwMzA1Mjg1
 LDM0NzM5NjAzMyw1NjU4NDI1MTVdfQ==
 -->
