@@ -45,6 +45,8 @@ public final Buffer rewind() {
     return this;  
 }
 ```
+
+每个Buffer都是可读的，但并不是每个Buffer都是可写的
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTI5NjQ5ODksMTAxMDAzOTgwNl19
+eyJoaXN0b3J5IjpbMTAwNTY1Mjk1NSwxMDEwMDM5ODA2XX0=
 -->
