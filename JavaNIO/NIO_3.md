@@ -11,6 +11,15 @@ mark、position、limit、capacity 之前的关系
 ### clear
 Buffer 的 clear 方法会将 limit 设置为 capacity ，将 position 设置为 0，也就是将 Buffer 恢复为初始化的状态。
 
+```java
+public final Buffer clear() {  
+    position = 0;  
+    limit = capacity;  
+    mark = -1;  
+    return this;  
+}
+```
+
 ### flip
 - 将 Buffer 的 设置为 position
 - 将 Buffer 的 position 设置为 0
@@ -37,5 +46,5 @@ public final Buffer rewind() {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODgxNzA0MDAsMTAxMDAzOTgwNl19
+eyJoaXN0b3J5IjpbLTEwMTI5NjQ5ODksMTAxMDAzOTgwNl19
 -->
