@@ -28,27 +28,36 @@ IntBuffer buffer = IntBuffer.allocate(10);
 > 假设我们初始化了一个长度为 6 的 IntBuffer ：`IntBuffer.allocate(６);`
 > 其中 P 代表 position，L 代表 limit ，C 代表 capacity
 
-初始化状态如下：
+**初始化状态如下：**
 
 ![](https://user-gold-cdn.xitu.io/2018/9/12/165ce3107f18c861?w=1407&h=487&f=jpeg&s=100902)
 
-像 Buffer 中 put 2 个元素
+**向 Buffer 中 put 2 个元素**
 
 ![](https://user-gold-cdn.xitu.io/2018/9/12/165ce30b68e8ff2a?w=1335&h=524&f=jpeg&s=95761)
 
 
-再次像 Buffer 中 put 两个元素
+**再次向 Buffer 中 put 两个元素**
 
 ![](https://user-gold-cdn.xitu.io/2018/9/12/165ce30fa8c9b136?w=1347&h=489&f=jpeg&s=95984)
 
-执行 Buffer.flip() 方法，这个时候是可以从 Buffer 中取数据
+**执行 Buffer.flip() 方法，这个时候是可以从 Buffer 中取数据**
 
 ![](https://user-gold-cdn.xitu.io/2018/9/12/165ce30ccc88e054?w=1345&h=466&f=jpeg&s=95467)
 
-Buffer#
+**Buffer.flip() 方法源码如下：**
+
+```java
+public final Buffer flip() {  
+    limit = position;  
+    position = 0;  
+    mark = -1;  
+    return this;  
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDMwNDUyNTAsMjEyNDMzNzQ0NSwtMT
-M0MTU5NzQxLC0xMDU2NTg5NTk0LDgyMjQ1NzYzMiwxODI2MzAx
-MDQsMTE4NTYwOTkxMiw0NjAzMDUyODUsMzQ3Mzk2MDMzLDU2NT
-g0MjUxNV19
+eyJoaXN0b3J5IjpbMTgxOTQxOTQ2NywyMTI0MzM3NDQ1LC0xMz
+QxNTk3NDEsLTEwNTY1ODk1OTQsODIyNDU3NjMyLDE4MjYzMDEw
+NCwxMTg1NjA5OTEyLDQ2MDMwNTI4NSwzNDczOTYwMzMsNTY1OD
+QyNTE1XX0=
 -->
