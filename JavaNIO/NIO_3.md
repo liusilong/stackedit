@@ -46,7 +46,9 @@ public final Buffer rewind() {
 }
 ```
 
-每个Buffer都是可读的，但并不是每个Buffer都是可写的
+每个Buffer都是可读的，但并不是每个Buffer都是可写的，如果在只读的Buffer执行了写入操作则会跑出 ReadOnlyBufferException 异常
+
+只读 Buffer 中的内容是bukebin
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAwNTY1Mjk1NSwxMDEwMDM5ODA2XX0=
+eyJoaXN0b3J5IjpbMjAwOTMxMzk0NiwxMDEwMDM5ODA2XX0=
 -->
