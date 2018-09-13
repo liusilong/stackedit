@@ -5,7 +5,7 @@
 
 ## 源码分析
 
-mark、position、limit、capacity 之前的关系
+mark、position、limit、capacity 之间的关系
 > 0 <= mark <= position <= limit <= capacity
 
 ### clear
@@ -21,7 +21,7 @@ public final Buffer clear() {
 ```
 
 ### flip
-- 将 Buffer 的 设置为 position
+- 将 Buffer 的 limit 设置为 position
 - 将 Buffer 的 position 设置为 0
 
 ```java
@@ -54,6 +54,6 @@ public final Buffer rewind() {
 
 **Buffer 本身并不是线程安全的**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjY4OTY0MzEsNDAzMzI3MTMsMTAxMD
-AzOTgwNl19
+eyJoaXN0b3J5IjpbNTM5NzUwNDYxLC0xMTY2ODk2NDMxLDQwMz
+MyNzEzLDEwMTAwMzk4MDZdfQ==
 -->
