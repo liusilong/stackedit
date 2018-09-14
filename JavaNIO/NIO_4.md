@@ -84,10 +84,11 @@ public class Demo5 {
 刘
 ```
 
-### slice
+### Slice Buffer
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4NjE1NjQ2MCw1ODIzMTczOTcsMjEyMT
-U2OTYyOSwzNzcyNzEzOTUsLTc4OTAyNjAzMV19
+eyJoaXN0b3J5IjpbLTEzNDc0NjU1MzAsNTgyMzE3Mzk3LDIxMj
+E1Njk2MjksMzc3MjcxMzk1LC03ODkwMjYwMzFdfQ==
 -->
