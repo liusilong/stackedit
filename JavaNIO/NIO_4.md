@@ -43,6 +43,9 @@ while (true) {
 inputChannel.close();  
 outputChannel.close();
 ```
+
+### 类型化的 Buffer
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0MDUxNjE0OCwtNzg5MDI2MDMxXX0=
+eyJoaXN0b3J5IjpbLTEyMTI4OTUzNzEsLTc4OTAyNjAzMV19
 -->
