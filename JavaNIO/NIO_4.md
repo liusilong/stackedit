@@ -45,8 +45,11 @@ outputChannel.close();
 ```
 
 ### 类型化的 Buffer
-
+> ByteBuffer 里面不仅可以放置 byte 类型的数据，还可以放置其他类型的数据
+> 在下面的例子中，我们依次在 ByteBuffer 中放置几种类型，然后再**依次**取出来
+> 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzc3MjcxMzk1LC03ODkwMjYwMzFdfQ==
+eyJoaXN0b3J5IjpbODgxNzM3MDU3LDM3NzI3MTM5NSwtNzg5MD
+I2MDMxXX0=
 -->
