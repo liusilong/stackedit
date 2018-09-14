@@ -66,10 +66,10 @@ public class Demo5 {
 	 double aDouble = buffer.getDouble();  
 	 char aChar = buffer.getChar();  
 	  
-	  System.out.println(anInt);  
-	  System.out.println(aLong);  
-	  System.out.println(aDouble);  
-	  System.out.println(aChar);  
+	  System.out.println(anInt); 
+	  System.out.println(aLong); 
+	  System.out.println(aDouble); 
+	  System.out.println(aChar); 
   
   }  
 }
@@ -87,6 +87,6 @@ public class Demo5 {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyMTU2OTYyOSwzNzcyNzEzOTUsLTc4OT
-AyNjAzMV19
+eyJoaXN0b3J5IjpbNTgyMzE3Mzk3LDIxMjE1Njk2MjksMzc3Mj
+cxMzk1LC03ODkwMjYwMzFdfQ==
 -->
