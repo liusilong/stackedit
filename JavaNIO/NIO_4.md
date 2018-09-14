@@ -46,6 +46,7 @@ outputChannel.close();
 
 ### 类型化的 Buffer
 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTI4OTUzNzEsLTc4OTAyNjAzMV19
+eyJoaXN0b3J5IjpbMzc3MjcxMzk1LC03ODkwMjYwMzFdfQ==
 -->
