@@ -122,11 +122,15 @@ public static void main(String[] args) {
   
 }
 ```
+输出如下：
 
-
+```java
+0	1	4	6	8	10	6	7	8	9
+```
+我们可以看到，从第二个到第六个（不包含第六个）的元素都已经乘以了2
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzEzMTA5MzYsLTExODk2NDY4ODcsNT
+eyJoaXN0b3J5IjpbLTEzOTQ2NDY5NzAsLTExODk2NDY4ODcsNT
 gyMzE3Mzk3LDIxMjE1Njk2MjksMzc3MjcxMzk1LC03ODkwMjYw
 MzFdfQ==
 -->
