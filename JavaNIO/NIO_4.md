@@ -11,7 +11,10 @@
 3. 将数据从 Channel 读取到 Buffer 中
 
 ###  绝对方法与相对方法的含义
-1. 相对方法：limit 值与 position 值会在cao'z
+1. 相对方法：limit 值与 position 值会在操作时被考虑到
+2. 绝对方法：完全忽略掉 limit 值与 position 值
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyNzU2MTc4Ml19
+eyJoaXN0b3J5IjpbLTc4OTAyNjAzMV19
 -->
