@@ -89,12 +89,44 @@ public class Demo5 {
 > Slice Buffer 与 原有 Buffer 共享相同的底层数组
 
 ```java
-
+public static void main(String[] args) {  
+    ByteBuffer buffer = ByteBuffer.allocate(10);  
+  
+ for (int i = 0; i < buffer.capacity(); i++) {  
+        buffer.put((byte) i);  
+  }  
+  
+    // 指定 buffer 的 position 和 limit  
+  buffer.position(2);  
+  buffer.limit(6);  
+  
+  // 从原有 buffer 中获取 slice buffer 这里是 [2, 6} 左闭右开区间  
+  ByteBuffer sliceBuffer = buffer.slice();  
+  
+  // 将 slice buffer 中的元素都 乘以 2  
+  for (int i = 0; i < sliceBuffer.capacity(); i++) {  
+        byte b = sliceBuffer.get(i);  
+	  b *= 2;  
+	  sliceBuffer.put(i, b);  
+	}  
+  
+    // 重置 buffer 的状态  
+  buffer.position(0);  
+  buffer.limit(buffer.capacity());  
+  
+  // 从原有 buffer 中读取数据  
+  while (buffer.hasRemaining()) {  
+        byte b = buffer.get();  
+  System.out.print(b + "\t");  
+  }  
+  
+}
 ```
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODk2NDY4ODcsNTgyMzE3Mzk3LDIxMj
-E1Njk2MjksMzc3MjcxMzk1LC03ODkwMjYwMzFdfQ==
+eyJoaXN0b3J5IjpbLTIwMzEzMTA5MzYsLTExODk2NDY4ODcsNT
+gyMzE3Mzk3LDIxMjE1Njk2MjksMzc3MjcxMzk1LC03ODkwMjYw
+MzFdfQ==
 -->
