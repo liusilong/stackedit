@@ -86,9 +86,15 @@ public class Demo5 {
 
 ### Slice Buffer
 
+> Slice Buffer 与 原有 Buffer 共享相同的底层数组
+
+```java
+
+```
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDc0NjU1MzAsNTgyMzE3Mzk3LDIxMj
+eyJoaXN0b3J5IjpbLTExODk2NDY4ODcsNTgyMzE3Mzk3LDIxMj
 E1Njk2MjksMzc3MjcxMzk1LC03ODkwMjYwMzFdfQ==
 -->
