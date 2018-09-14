@@ -14,7 +14,35 @@
 1. 相对方法：limit 值与 position 值会在操作时被考虑到
 2. 绝对方法：完全忽略掉 limit 值与 position 值
 
+### 案例
+> 使用 Buffer 将一个文件中的内容写入到另一个文件中去
 
+```java
+FileInputStream inputStream = new FileInputStream("input.txt");  
+FileOutputStream outputStream = new FileOutputStream("output.txt");  
+  
+FileChannel inputChannel = inputStream.getChannel();  
+FileChannel outputChannel = outputStream.getChannel();  
+  
+ByteBuffer buffer = ByteBuffer.allocate(4);  
+  
+while (true) {  
+  // Buffer 重置  
+  buffer.clear();  
+  int read = inputChannel.read(buffer);  
+  System.out.println("read: " + read);  
+  
+ if (read == -1) {  
+        break;  
+  }  
+  
+  buffer.flip();  
+  outputChannel.write(buffer);  
+}  
+  
+inputChannel.close();  
+outputChannel.close();
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4OTAyNjAzMV19
+eyJoaXN0b3J5IjpbLTg0MDUxNjE0OCwtNzg5MDI2MDMxXX0=
 -->
