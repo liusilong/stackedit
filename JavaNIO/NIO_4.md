@@ -84,9 +84,10 @@ public class Demo5 {
 刘
 ```
 
+### slice
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTgyMzE3Mzk3LDIxMjE1Njk2MjksMzc3Mj
-cxMzk1LC03ODkwMjYwMzFdfQ==
+eyJoaXN0b3J5IjpbLTM4NjE1NjQ2MCw1ODIzMTczOTcsMjEyMT
+U2OTYyOSwzNzcyNzEzOTUsLTc4OTAyNjAzMV19
 -->
