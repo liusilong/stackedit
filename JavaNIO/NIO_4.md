@@ -78,10 +78,15 @@ public class Demo5 {
 输出如下：
 
 ```java
-
+10
+50000000
+3.1415926
+刘
 ```
 
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5NjI4Mjg0MCwzNzcyNzEzOTUsLTc4OT
+eyJoaXN0b3J5IjpbMjEyMTU2OTYyOSwzNzcyNzEzOTUsLTc4OT
 AyNjAzMV19
 -->
