@@ -46,10 +46,42 @@ outputChannel.close();
 
 ### 类型化的 Buffer
 > ByteBuffer 里面不仅可以放置 byte 类型的数据，还可以放置其他类型的数据
-> 在下面的例子中，我们依次在 ByteBuffer 中放置几种类型，然后再**依次**取出来
-> 
+> 在下面的例子中，我们依次在 ByteBuffer 中放置几种类型，然后再**依次**取出来。取出顺序和放置顺序一定要一致
+
+```java
+public class Demo5 {  
+    public static void main(String[] args) {  
+      ByteBuffer buffer = ByteBuffer.allocate(64);  
+  
+	  buffer.putInt(10);  
+	  buffer.putLong(50000000L);  
+	  buffer.putDouble(3.1415926);  
+	  buffer.putChar('刘');  
+	  
+	  
+	  buffer.flip();  
+	  
+	 int anInt = buffer.getInt();  
+	 long aLong = buffer.getLong();  
+	 double aDouble = buffer.getDouble();  
+	 char aChar = buffer.getChar();  
+	  
+	  System.out.println(anInt);  
+	  System.out.println(aLong);  
+	  System.out.println(aDouble);  
+	  System.out.println(aChar);  
+  
+  }  
+}
+```
+
+输出如下：
+
+```java
+
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODgxNzM3MDU3LDM3NzI3MTM5NSwtNzg5MD
-I2MDMxXX0=
+eyJoaXN0b3J5IjpbMTg5NjI4Mjg0MCwzNzcyNzEzOTUsLTc4OT
+AyNjAzMV19
 -->
