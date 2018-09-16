@@ -136,6 +136,7 @@ public static void main(String[] args) {
 * 通过调用原有 Buffer（读\写）的 `asReadOnlyBuffer()` 方法将在原有 Buffer 的基础上创建一个新的只读 Buffer
 * 新的只读 Buffer 的 `capacity`、`limit`、`position`、`mark` 和原有 Buffer 一致，但是它们两个的 `capacity`、`limit`、`position`、`mark`  又都是独立的
 * 新 Buffer 的内容和原有 Buffer 一致，对原有 Buffer 的修改对于新 Buffer 是可见的
+* 可读写的 Buffer 的任何时候都可以调用 
 
 下面我们来看一个只读 Buffer 的例子
 
@@ -207,8 +208,8 @@ public ByteBuffer put(byte x) {
 看到了吧！`HeapByteBufferR` 的 `put` 方法如此简单，直接抛出 `ReadOnlyBufferException` 异常，所以是修改不了的
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyNTYzMjM0OCwzMDM0NjMxNDMsNjE5ND
-U3MjcwLC0xNjk3NDUxMzY0LC0xMzk0NjQ2OTcwLC0xMTg5NjQ2
-ODg3LDU4MjMxNzM5NywyMTIxNTY5NjI5LDM3NzI3MTM5NSwtNz
-g5MDI2MDMxXX0=
+eyJoaXN0b3J5IjpbLTE3Nzg3MDUwNTAsMzAzNDYzMTQzLDYxOT
+Q1NzI3MCwtMTY5NzQ1MTM2NCwtMTM5NDY0Njk3MCwtMTE4OTY0
+Njg4Nyw1ODIzMTczOTcsMjEyMTU2OTYyOSwzNzcyNzEzOTUsLT
+c4OTAyNjAzMV19
 -->
