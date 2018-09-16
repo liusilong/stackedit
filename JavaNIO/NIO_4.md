@@ -184,10 +184,14 @@ public ByteBuffer asReadOnlyBuffer() {
 }
 ```
 
-可以看出，
+可以看出在 `asReadOnlyBuffer()` 里面是直接 new 出了一个 `HeapByteBufferR` 对象。
+
+那么，`HeapByteBufferR`  是如何保证只读的呢？我们来看看 `HeapByteBuffer`  和 `HeapByteBufferR`  的 `put` 方法就明白了：
+**HeapByteBuffer**
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwMDQxMTQwMCwzMDM0NjMxNDMsNjE5ND
-U3MjcwLC0xNjk3NDUxMzY0LC0xMzk0NjQ2OTcwLC0xMTg5NjQ2
-ODg3LDU4MjMxNzM5NywyMTIxNTY5NjI5LDM3NzI3MTM5NSwtNz
-g5MDI2MDMxXX0=
+eyJoaXN0b3J5IjpbNTcyNDU0NzMzLDMwMzQ2MzE0Myw2MTk0NT
+cyNzAsLTE2OTc0NTEzNjQsLTEzOTQ2NDY5NzAsLTExODk2NDY4
+ODcsNTgyMzE3Mzk3LDIxMjE1Njk2MjksMzc3MjcxMzk1LC03OD
+kwMjYwMzFdfQ==
 -->
