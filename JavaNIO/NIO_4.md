@@ -134,7 +134,8 @@ public static void main(String[] args) {
 
 * 只读 Buffer 就是只能执行读取操作，不能执行改写的 Buffer
 * 通过调用原有 Buffer（读\写）的 `asReadOnlyBuffer()` 方法将在原有 Buffer 的基础上创建一个新的只读 Buffer
-* 新的只读 Buffer 的 `capacity`、`limit`、`position`、`mark` 和原有 Buffer 一致
+* 新的只读 Buffer 的 `capacity`、`limit`、`position`、`mark` 和原有 Buffer 一致，但是它们两个的 `capacity`、`limit`、`position`、`mark`  又都是独立的
+* 新 Buffer 的内容和原有 Buffer 一致，对原有 Buffer 的修改对于新 Buffer 是可见的
 
 下面我们来看一个只读 Buffer 的例子
 
@@ -169,7 +170,7 @@ class java.nio.HeapByteBufferR
 
 可以看出：可读写的 Buffer 的 class 对象是 `HeapByteBuffer` ，而只读 Buffer 的 class 对象是 `HeapByteBufferR`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjE5NDU3MjcwLC0xNjk3NDUxMzY0LC0xMz
-k0NjQ2OTcwLC0xMTg5NjQ2ODg3LDU4MjMxNzM5NywyMTIxNTY5
-NjI5LDM3NzI3MTM5NSwtNzg5MDI2MDMxXX0=
+eyJoaXN0b3J5IjpbMzAzNDYzMTQzLDYxOTQ1NzI3MCwtMTY5Nz
+Q1MTM2NCwtMTM5NDY0Njk3MCwtMTE4OTY0Njg4Nyw1ODIzMTcz
+OTcsMjEyMTU2OTYyOSwzNzcyNzEzOTUsLTc4OTAyNjAzMV19
 -->
