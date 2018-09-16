@@ -132,9 +132,10 @@ public static void main(String[] args) {
 
 ### 只读 Buffer
 
-z
+* 只读 Buffer 就是只能读取，不能改写的 Buffer
+* 通过调用原有 Buffer（读\写）的 `asReadOnlyBuffer()` 方法将在原有 Buffer 的基础上创建一个新的只读 Buffer
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODg4ODE0MTAsLTE2OTc0NTEzNjQsLT
+eyJoaXN0b3J5IjpbLTE3NzMyNTU5MTksLTE2OTc0NTEzNjQsLT
 EzOTQ2NDY5NzAsLTExODk2NDY4ODcsNTgyMzE3Mzk3LDIxMjE1
 Njk2MjksMzc3MjcxMzk1LC03ODkwMjYwMzFdfQ==
 -->
