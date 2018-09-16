@@ -129,8 +129,12 @@ public static void main(String[] args) {
 ```
 我们可以看到，从第二个到第六个（不包含第六个）的元素都已经乘以了2
 
+
+### 只读 Buffer
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTQ2NDY5NzAsLTExODk2NDY4ODcsNT
-gyMzE3Mzk3LDIxMjE1Njk2MjksMzc3MjcxMzk1LC03ODkwMjYw
-MzFdfQ==
+eyJoaXN0b3J5IjpbLTE2OTc0NTEzNjQsLTEzOTQ2NDY5NzAsLT
+ExODk2NDY4ODcsNTgyMzE3Mzk3LDIxMjE1Njk2MjksMzc3Mjcx
+Mzk1LC03ODkwMjYwMzFdfQ==
 -->
