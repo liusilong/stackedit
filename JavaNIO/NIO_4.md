@@ -158,9 +158,18 @@ public static void main(String[] args) {
 
 首先我们创建了一个可读写的 Buffer，然后往里面添加了一些元素
 
-之后偶们
+之后调用了 `asReadOnlyBuffer()`  方法生成一个 readOnlyBuffer
+
+我们在上述代码中分别输出了 buffer 的 class 对象和 readOnlyBuffer 的 class 对象，他们的结果如下：
+
+```java
+class java.nio.HeapByteBuffer
+class java.nio.HeapByteBufferR
+```
+
+可以看出：可读写的 Buffer s
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTU3MjA2NCwtMTY5NzQ1MTM2NCwtMTM5ND
-Y0Njk3MCwtMTE4OTY0Njg4Nyw1ODIzMTczOTcsMjEyMTU2OTYy
-OSwzNzcyNzEzOTUsLTc4OTAyNjAzMV19
+eyJoaXN0b3J5IjpbLTIwNjU2OTM0NTgsLTE2OTc0NTEzNjQsLT
+EzOTQ2NDY5NzAsLTExODk2NDY4ODcsNTgyMzE3Mzk3LDIxMjE1
+Njk2MjksMzc3MjcxMzk1LC03ODkwMjYwMzFdfQ==
 -->
