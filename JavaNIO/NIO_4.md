@@ -204,10 +204,10 @@ public ByteBuffer put(byte x) {
     throw new ReadOnlyBufferException();  
 }
 ```
-看到了吧！`HeapByteBufferR` 的 `put` 方法如此简单，直接抛出 `ReadOnlyBufferException` 异常
+看到了吧！`HeapByteBufferR` 的 `put` 方法如此简单，直接抛出 `ReadOnlyBufferException` 异常，所以是修改不了的
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ2NTc1Mjg3OCwzMDM0NjMxNDMsNjE5ND
+eyJoaXN0b3J5IjpbMTEyNTYzMjM0OCwzMDM0NjMxNDMsNjE5ND
 U3MjcwLC0xNjk3NDUxMzY0LC0xMzk0NjQ2OTcwLC0xMTg5NjQ2
 ODg3LDU4MjMxNzM5NywyMTIxNTY5NjI5LDM3NzI3MTM5NSwtNz
 g5MDI2MDMxXX0=
