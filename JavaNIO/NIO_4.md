@@ -136,9 +136,31 @@ public static void main(String[] args) {
 * 通过调用原有 Buffer（读\写）的 `asReadOnlyBuffer()` 方法将在原有 Buffer 的基础上创建一个新的只读 Buffer
 * 新的只读 Buffer 的 `capacity`、`limit`、`position`、`mark` 和原有 Buffer 一致
 
-下面我们来看一个Hi'x
+下面我们来看一个只读 Buffer 的例子
+
+```java
+public static void main(String[] args) {  
+    ByteBuffer buffer = ByteBuffer.allocate(10);  
+  
+  System.out.println(buffer.getClass());  
+  
+ for (int i = 0; i < buffer.capacity(); i++) {  
+        buffer.put((byte) i);  
+  }  
+  
+    // 在原有 Buffer 的基础上创建一个只读 Buffer  
+  ByteBuffer readOnlyBuffer = buffer.asReadOnlyBuffer();  
+  
+  System.out.println(readOnlyBuffer.getClass());  
+  
+}
+```
+
+首先我们创建了一个可读写的 Buffer，然后往里面添加了一些元素
+
+之后偶们
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTMxNzc1Mzc3LC0xNjk3NDUxMzY0LC0xMz
-k0NjQ2OTcwLC0xMTg5NjQ2ODg3LDU4MjMxNzM5NywyMTIxNTY5
-NjI5LDM3NzI3MTM5NSwtNzg5MDI2MDMxXX0=
+eyJoaXN0b3J5IjpbOTU3MjA2NCwtMTY5NzQ1MTM2NCwtMTM5ND
+Y0Njk3MCwtMTE4OTY0Njg4Nyw1ODIzMTczOTcsMjEyMTU2OTYy
+OSwzNzcyNzEzOTUsLTc4OTAyNjAzMV19
 -->
