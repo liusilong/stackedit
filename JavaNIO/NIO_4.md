@@ -167,9 +167,9 @@ class java.nio.HeapByteBuffer
 class java.nio.HeapByteBufferR
 ```
 
-可以看出：可读写的 Buffer s
+可以看出：可读写的 Buffer 的 class 对象是 `HeapByteBuffer` ，而只读 Buffer 的 class 对象是 `HeapByteBufferR`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjU2OTM0NTgsLTE2OTc0NTEzNjQsLT
-EzOTQ2NDY5NzAsLTExODk2NDY4ODcsNTgyMzE3Mzk3LDIxMjE1
-Njk2MjksMzc3MjcxMzk1LC03ODkwMjYwMzFdfQ==
+eyJoaXN0b3J5IjpbNjE5NDU3MjcwLC0xNjk3NDUxMzY0LC0xMz
+k0NjQ2OTcwLC0xMTg5NjQ2ODg3LDU4MjMxNzM5NywyMTIxNTY5
+NjI5LDM3NzI3MTM5NSwtNzg5MDI2MDMxXX0=
 -->
