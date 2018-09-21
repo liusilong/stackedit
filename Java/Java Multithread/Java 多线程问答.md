@@ -10,6 +10,7 @@
 进程是一个独立的执行环境，可以看作是程序或者应用程序，而 Thread 是进程中的单个执行任务。线程可以称为轻量级的进程。线程需要较少的资源来创建并存在于进程中，线程共享进程资源。
 
 ### 多线程编程的好处
+在多线程编程中，多个线程同时执行，从而提高性能，因为 CPU 没有空闲fa
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY4NzcyMTMwM119
+eyJoaXN0b3J5IjpbLTM2Njc1NDk3MV19
 -->
