@@ -19,7 +19,7 @@
 在 Java 中，有两种方式创建线程。第一种是实现 Runnable 接口然后创建一个 Thread 将 Runnable 的实现类作为参数传递进去。第二种是直接继承 Thread 。[Createing threads in java](https://www.journaldev.com/1016/java-thread-example)
 
 ### Thread 的声明周期中的不同状态
-
+当我们在 Java 程序中创建一个 Thread 时候，Thread 的状态是 New，
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDIxOTQ4NDA5LDMwMjk1MzgzNl19
+eyJoaXN0b3J5IjpbLTE5MzU0NDgzNzQsMzAyOTUzODM2XX0=
 -->
