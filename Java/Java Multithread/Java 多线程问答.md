@@ -16,7 +16,7 @@
 当我们在 Java 中创建一个线程时，它被称为用户线程。守护线程在后台运行，不会阻止 JVM 终止。当所有的用户线程都终止运行时，JVM 会关闭程序并退出。从守护线程创建的子线程也是一个守护线程。
 
 ### 在 Java 中我们如何创建一个 Thread
-在 Java 中，有两个或总
+在 Java 中，有两种方式创建线程。第一种是实现 Runnable 接口然后创建一个 Thread 将 Runnable 的实现类作为参数传递进去。第二种是直接继承 Thread 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTEyMjk4OTBdfQ==
+eyJoaXN0b3J5IjpbMjk2MzIxNjYwXX0=
 -->
