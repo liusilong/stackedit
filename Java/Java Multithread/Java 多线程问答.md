@@ -18,7 +18,8 @@
 ### 在 Java 中我们如何创建一个 Thread
 在 Java 中，有两种方式创建线程。第一种是实现 Runnable 接口然后创建一个 Thread 将 Runnable 的实现类作为参数传递进去。第二种是直接继承 Thread 。[Createing threads in java](https://www.journaldev.com/1016/java-thread-example)
 
+### Thread 的声明周期中的不同状态
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzAyOTUzODM2XX0=
+eyJoaXN0b3J5IjpbNDIxOTQ4NDA5LDMwMjk1MzgzNl19
 -->
