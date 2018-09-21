@@ -24,8 +24,8 @@
 ### 6. 我们可以调用 Thread 类的 run 方法吗？
 是的，我们可以调用Thread 类的 run 方法，但他会想普通方法一样运行。要在 Thread 中执行它，我们需要视同 `Thread.start()` 方法启动它。
 
-### 
+### 7. 如何
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NTMwNDMxMDcsMzAyOTUzODM2XX0=
+eyJoaXN0b3J5IjpbMTIyODM0NDg3LDMwMjk1MzgzNl19
 -->
