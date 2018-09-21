@@ -25,8 +25,8 @@
 是的，我们可以调用Thread 类的 run 方法，但他会想普通方法一样运行。要在 Thread 中执行它，我们需要视同 `Thread.start()` 方法启动它。
 
 ### 7. 如何在特定时间暂停线程的执行
-
+我们可以使用 Thread 类的 sleep() 方法暂停执行 Thread 一段时间。请注意，这不会停止线程，一旦线程从睡眠
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyODU0MDU4NSwzMDI5NTM4MzZdfQ==
+eyJoaXN0b3J5IjpbLTE4NTQ5MTIzODcsMzAyOTUzODM2XX0=
 -->
