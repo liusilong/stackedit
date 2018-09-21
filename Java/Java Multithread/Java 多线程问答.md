@@ -11,6 +11,9 @@
 
 ### 多线程编程的好处
 在多线程编程中，多个线程同时执行，从而提高性能，因为 CPU 没有空闲以防某些线程正在等待获取资源。多个线程共享堆内存（heap memory）。
+
+### 用户线程(User Thread)和守护线程(Daemon Thread)有什么区别
+当我们在 Java 中创建一个线程时，他被称为用户线程
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTg5NDUzMzVdfQ==
+eyJoaXN0b3J5IjpbMTI1MTU0MDY5Nl19
 -->
