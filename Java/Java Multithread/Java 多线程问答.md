@@ -13,7 +13,10 @@
 在多线程编程中，多个线程同时执行，从而提高性能，因为 CPU 没有空闲以防某些线程正在等待获取资源。多个线程共享堆内存（heap memory）。
 
 ### 用户线程(User Thread)和守护线程(Daemon Thread)有什么区别
-当我们在 Java 中创建一个线程时，它被称为用户线程。守护线程在后台运行，不会阻止 JVM 终止。
+当我们在 Java 中创建一个线程时，它被称为用户线程。守护线程在后台运行，不会阻止 JVM 终止。当所有的用户线程都终止运行时，JVM 会关闭程序并退出。从守护线程创建的子线程也是一个守护线程。
+
+### 在 Java 中我们如何创建一个 Thread
+在 Java 中，有两个或总
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3MzY3MjE1OF19
+eyJoaXN0b3J5IjpbLTE3MTEyMjk4OTBdfQ==
 -->
