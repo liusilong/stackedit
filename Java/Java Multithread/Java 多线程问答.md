@@ -24,8 +24,9 @@
 ### 6. 我们可以调用 Thread 类的 run 方法吗？
 是的，我们可以调用Thread 类的 run 方法，但他会想普通方法一样运行。要在 Thread 中执行它，我们需要视同 `Thread.start()` 方法启动它。
 
-### 7. 如何
+### 7. 如何在特定时间暂停线程的执行
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyODM0NDg3LDMwMjk1MzgzNl19
+eyJoaXN0b3J5IjpbMTMyODU0MDU4NSwzMDI5NTM4MzZdfQ==
 -->
