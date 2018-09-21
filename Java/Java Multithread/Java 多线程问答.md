@@ -27,9 +27,10 @@
 ### 7. 如何在特定时间暂停线程的执行
 我们可以使用 Thread 类的 sleep() 方法暂停执行 Thread 一段时间。请注意，这不会停止线程，一旦线程从睡眠(sleep)中唤醒(awake)，线程的状态会基于线程调度变为 Runnable，然后将会被执行。
 
-### 8. 你对线程的
+### 8. 你对线程的优先级了解多少
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkzMjQ4MDk2MywtMTEzOTEwMDc0OCwzMD
+eyJoaXN0b3J5IjpbMTY4NzI3MDM1OCwtMTEzOTEwMDc0OCwzMD
 I5NTM4MzZdfQ==
 -->
