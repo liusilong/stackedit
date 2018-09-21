@@ -19,7 +19,10 @@
 在 Java 中，有两种方式创建线程。第一种是实现 Runnable 接口然后创建一个 Thread 将 Runnable 的实现类作为参数传递进去。第二种是直接继承 Thread 。[Createing threads in java](https://www.journaldev.com/1016/java-thread-example)
 
 ### Thread 的声明周期中的不同状态
-当我们在 Java 程序中创建一个 Thread 时候，Thread 的状态是 New，然后我们调用 start 方法开启一个线程之后，状态会变成 Runnable，线程调度程序负责将 CPU 分配给 Runnable 线程池中的线程，并将其状态更改为 Running， 
+当我们在 Java 程序中创建一个 Thread 时候，Thread 的状态是 New，然后我们调用 start 方法开启一个线程之后，状态会变成 Runnable，线程调度程序负责将 CPU 分配给 Runnable 线程池中的线程，并将其状态更改为 Running， 线程的其他状态为 Waiting，Blocked 和 Dead。[life cycle of thread](https://www.journaldev.com/1044/thread-life-cycle-in-java-thread-states-in-java)
+
+### 我们可以调用 Thread 类的 run 方法吗？
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyNDg4MzMwMiwzMDI5NTM4MzZdfQ==
+eyJoaXN0b3J5IjpbNDI4ODc1MTI1LDMwMjk1MzgzNl19
 -->
