@@ -22,8 +22,8 @@
 当我们在 Java 程序中创建一个 Thread 时候，Thread 的状态是 New，然后我们调用 start 方法开启一个线程之后，状态会变成 Runnable，线程调度程序负责将 CPU 分配给 Runnable 线程池中的线程，并将其状态更改为 Running， 线程的其他状态为 Waiting，Blocked 和 Dead。[life cycle of thread](https://www.journaldev.com/1044/thread-life-cycle-in-java-thread-states-in-java)
 
 ### 6. 我们可以调用 Thread 类的 run 方法吗？
-是的，我们可以调用
+是的，我们可以调用Thread 类的 run 方法，但他会想普通方法一样运行。
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDgyNjI2MTQ3LDMwMjk1MzgzNl19
+eyJoaXN0b3J5IjpbLTIwNTAyNDIyNzMsMzAyOTUzODM2XX0=
 -->
