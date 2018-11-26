@@ -10,10 +10,31 @@
 
 第二种 `allocateDirect` 称之为 直接缓冲
 
-allocate 的方式创建Buffer 的时候，里面实际上是创建了一个
+allocate 的方式创建Buffer 的时候，里面实际上是创建了一个 HeapByteBuffer，我们可以跟着源码看下：
+
+### ByteBuffer
+```java
+public static ByteBuffer allocate(int capacity) {  
+    if (capacity < 0)  
+        throw new IllegalArgumentException();  
+    return new HeapByteBuffer(capacity, capacity);  
+}
+```
+
+### HeapByteBuffer
+```java
+HeapByteBuffer(int cap, int lim) {            // package-private  
+  
+  super(-1, 0, lim, cap, new byte[cap], 0);  
+    /*  
+ hb = new byte[cap]; offset = 0; */  
+  
+  
+}
+```
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUxMTk0NjczNiw1NjkwNDk1MDVdfQ==
+eyJoaXN0b3J5IjpbLTI0MDg2ODE0OCw1NjkwNDk1MDVdfQ==
 -->
