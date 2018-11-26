@@ -10,8 +10,10 @@
 
 第二种 `allocateDirect` 称之为 直接缓冲
 
+allocate 的方式创建Buffer 的时候，里面实际上是创建了一个
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODkyNTU4MDY4LDU2OTA0OTUwNV19
+eyJoaXN0b3J5IjpbMTUxMTk0NjczNiw1NjkwNDk1MDVdfQ==
 -->
