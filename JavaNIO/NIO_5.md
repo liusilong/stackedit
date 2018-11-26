@@ -65,8 +65,10 @@ Buffer(int mark, int pos, int lim, int cap) {       // package-private
 **Native:**  `base = unsafe.allocateMemory(size);` -- 堆外内存，系统内存，不在Java的管控范围内
 
 
-我们在使用 
+我们在使用 HeapByteBuffer的时候，实际上在Java堆外内存中有一个堆当前ByteBuffer数据的拷贝，I/0 操作的是拷贝之后的的数据。多了一步拷贝操作。
+
+而 DirectByteBuffer 的数据只直接在Java堆外的，也就是在xi
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0ODc5MzgxMywyMjAyMDAyNjcsLTczNj
+eyJoaXN0b3J5IjpbMTM3NzkxMjIzNSwyMjAyMDAyNjcsLTczNj
 Q2MzI4Nyw1NjkwNDk1MDVdfQ==
 -->
