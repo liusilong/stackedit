@@ -59,12 +59,12 @@ Buffer(int mark, int pos, int lim, int cap) {       // package-private
 }
 ```
 我们可以看出 allocate 创建 Buffer 的方式都是在Java的层面上来创建的。
-
+而
 `DirectByteBuffer` 有两部分构成：
-Java: `DirectByteBuffer` -- 堆内存，虚拟机可直接管控
-Native: `base = unsafe.allocateMemory(size);` -- 堆外内存，系统内存，不在Java的管控范围内
+**Java:**  `DirectByteBuffer` -- 堆内存，虚拟机可直接管控
+**Native:**  `base = unsafe.allocateMemory(size);` -- 堆外内存，系统内存，不在Java的管控范围内
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjIwMjAwMjY3LC03MzY0NjMyODcsNTY5MD
-Q5NTA1XX0=
+eyJoaXN0b3J5IjpbLTM0MDMyODc0MywyMjAyMDAyNjcsLTczNj
+Q2MzI4Nyw1NjkwNDk1MDVdfQ==
 -->
