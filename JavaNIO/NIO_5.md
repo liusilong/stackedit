@@ -20,9 +20,6 @@ public static ByteBuffer allocate(int capacity) {
     return new HeapByteBuffer(capacity, capacity);  
 }
 ```
-
-↓
-↓
 ### HeapByteBuffer
 ```java
 HeapByteBuffer(int cap, int lim) {            // package-private  
@@ -63,5 +60,5 @@ Buffer(int mark, int pos, int lim, int cap) {       // package-private
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTgwNjQ4NzYzLDU2OTA0OTUwNV19
+eyJoaXN0b3J5IjpbLTczNjQ2MzI4Nyw1NjkwNDk1MDVdfQ==
 -->
