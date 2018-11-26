@@ -64,7 +64,9 @@ Buffer(int mark, int pos, int lim, int cap) {       // package-private
 **Java:**  `DirectByteBuffer` -- 堆内存，虚拟机可直接管控
 **Native:**  `base = unsafe.allocateMemory(size);` -- 堆外内存，系统内存，不在Java的管控范围内
 
+
+我们在使用 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0MDMyODc0MywyMjAyMDAyNjcsLTczNj
+eyJoaXN0b3J5IjpbLTM0ODc5MzgxMywyMjAyMDAyNjcsLTczNj
 Q2MzI4Nyw1NjkwNDk1MDVdfQ==
 -->
