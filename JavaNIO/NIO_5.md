@@ -58,7 +58,10 @@ Buffer(int mark, int pos, int lim, int cap) {       // package-private
     }  
 }
 ```
+我们可以看出 allocate 创建 Buffer 的方式都是在Java的层面上来创建的。
 
+Dire
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczNjQ2MzI4Nyw1NjkwNDk1MDVdfQ==
+eyJoaXN0b3J5IjpbNzM0NjY0MzcxLC03MzY0NjMyODcsNTY5MD
+Q5NTA1XX0=
 -->
