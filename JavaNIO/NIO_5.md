@@ -21,6 +21,8 @@ public static ByteBuffer allocate(int capacity) {
 }
 ```
 
+↓
+↓
 ### HeapByteBuffer
 ```java
 HeapByteBuffer(int cap, int lim) {            // package-private  
@@ -28,13 +30,38 @@ HeapByteBuffer(int cap, int lim) {            // package-private
   super(-1, 0, lim, cap, new byte[cap], 0);  
     /*  
  hb = new byte[cap]; offset = 0; */  
-  
-  
+ }
+```
+
+### ByteBuffer
+
+```java
+ByteBuffer(int mark, int pos, int lim, int cap,   // package-private  
+  byte[] hb, int offset)  
+{  
+    super(mark, pos, lim, cap);  
+    this.hb = hb;  
+    this.offset = offset;  
+}
+```
+### Buffer
+
+```java
+Buffer(int mark, int pos, int lim, int cap) {       // package-private  
+  if (cap < 0)  
+        throw new IllegalArgumentException("Negative capacity: " + cap);  
+    this.capacity = cap;  
+    limit(lim);  
+    position(pos);  
+    if (mark >= 0) {  
+        if (mark > pos)  
+            throw new IllegalArgumentException("mark > position: ("  
+  + mark + " > " + pos + ")");  
+        this.mark = mark;  
+    }  
 }
 ```
 
-
-
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI0MDg2ODE0OCw1NjkwNDk1MDVdfQ==
+eyJoaXN0b3J5IjpbNTgwNjQ4NzYzLDU2OTA0OTUwNV19
 -->
