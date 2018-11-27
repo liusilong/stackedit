@@ -37,6 +37,13 @@ public class NIOTest6 {
   - **size**: 长度
 
 上述案例中 的 `NioTest6.txt` 文件中的初始内容为
+```txt
+000000000000000
+```
+程序运行之后的内容为
+```txt
+a00b00000000000
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjY2NDI3NjU2LDYyNjA5NDg5Nl19
+eyJoaXN0b3J5IjpbMTU5NzgwNjc5Niw2MjYwOTQ4OTZdfQ==
 -->
