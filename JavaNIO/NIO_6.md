@@ -30,9 +30,13 @@ public class NIOTest6 {
  `fileChannel.map` 的三个参数的含义分别如下：
  -  **MapMode**： 
 	 - READ_ONLY ： 只读
-	 - READ_WRITE： ke
-   
+	 - READ_WRITE： 可读可写
+	 
+  - **position**: 起始位置
+  
+  - **size**: 长度
 
+上述案例中 的 `NioTest6.txt` 文件中的初始内容为
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxNDAwOTgxMiw2MjYwOTQ4OTZdfQ==
+eyJoaXN0b3J5IjpbNjY2NDI3NjU2LDYyNjA5NDg5Nl19
 -->
