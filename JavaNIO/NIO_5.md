@@ -68,7 +68,9 @@ Buffer(int mark, int pos, int lim, int cap) {       // package-private
 我们在使用 **HeapByteBuffer**的时候，实际上在Java堆外内存中有一个当前**ByteBuffer**数据的拷贝，I/0 操作的是拷贝之后的的数据。多了一步拷贝操作。
 
 而 **DirectByteBuffer** 的数据只直接在Java堆外的，也就是在系统内存中的，操作的时候不需要额外的拷贝操作。这种操作叫做 **零拷贝**
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5MDk2MjI2LDIyMDIwMDI2NywtNzM2ND
-YzMjg3LDU2OTA0OTUwNV19
+eyJoaXN0b3J5IjpbLTQxNzU5NTMzNCwtNzkwOTYyMjYsMjIwMj
+AwMjY3LC03MzY0NjMyODcsNTY5MDQ5NTA1XX0=
 -->
