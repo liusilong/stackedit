@@ -69,8 +69,10 @@ Buffer(int mark, int pos, int lim, int cap) {       // package-private
 
 而 **DirectByteBuffer** 的数据只直接在Java堆外的，也就是在系统内存中的，操作的时候不需要额外的拷贝操作。这种操作叫做 **零拷贝**
 
+DirectByteBuffer 是在Java堆上的一个对象，但是它持有着一个在Java堆外的内存的引用，也就是操作系统cen
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxNzU5NTMzNCwtNzkwOTYyMjYsMjIwMj
-AwMjY3LC03MzY0NjMyODcsNTY5MDQ5NTA1XX0=
+eyJoaXN0b3J5IjpbLTYzMzQyMzIyLC00MTc1OTUzMzQsLTc5MD
+k2MjI2LDIyMDIwMDI2NywtNzM2NDYzMjg3LDU2OTA0OTUwNV19
+
 -->
