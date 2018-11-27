@@ -28,9 +28,11 @@ public class NIOTest6 {
 ```
 
  `fileChannel.map` 的三个参数的含义分别如下：
- 1
+ -  **MapMode**： 
+	 - READ_ONLY ： 只读
+	 - READ_WRITE： ke
    
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2ODYzNjYxMyw2MjYwOTQ4OTZdfQ==
+eyJoaXN0b3J5IjpbLTgxNDAwOTgxMiw2MjYwOTQ4OTZdfQ==
 -->
