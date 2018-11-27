@@ -25,10 +25,12 @@ public class NIOTest6 {
         randomAccessFile.close();  
     }  
 }
-
-`fileChannel.map` 的三个参数的意思如下：
-
 ```
+
+ `fileChannel.map` 的三个参数的含义分别如下：
+ 1
+   
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MjA2MjQyNyw2MjYwOTQ4OTZdfQ==
+eyJoaXN0b3J5IjpbMTg2ODYzNjYxMyw2MjYwOTQ4OTZdfQ==
 -->
