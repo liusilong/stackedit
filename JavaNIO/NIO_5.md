@@ -71,10 +71,12 @@ Buffer(int mark, int pos, int lim, int cap) {       // package-private
 
 **DirectByteBuffer** 是在Java堆上的一个对象，但是它持有着一个在Java堆外的内存的引用，也就是操作系统层面的内存。称之为**直接内存模型**。
 
+Java中的 **ByteBuffer**中存在两种缓冲区，直接缓冲区，间接缓冲区。
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjA5ODAwNDYsLTQxNzU5NTMzNCwtNz
+eyJoaXN0b3J5IjpbLTE5ODc1MDIzODgsLTQxNzU5NTMzNCwtNz
 kwOTYyMjYsMjIwMjAwMjY3LC03MzY0NjMyODcsNTY5MDQ5NTA1
 XX0=
 -->
