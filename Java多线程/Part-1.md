@@ -16,6 +16,9 @@
 	- join
 	- sleep
 - Synchronization
+- 线程间通信
+- 死锁（DeadLock）
+- 守护线程（）
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyMzk1NzIyOV19
+eyJoaXN0b3J5IjpbLTYzODgzMzM5MF19
 -->
