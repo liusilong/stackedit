@@ -18,7 +18,8 @@
 - Synchronization
 - 线程间通信
 - 死锁（DeadLock）
-- 守护线程（）
+- 守护线程（Deamon Thread）
+- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzODgzMzM5MF19
+eyJoaXN0b3J5IjpbLTU0OTM5NzI3MV19
 -->
