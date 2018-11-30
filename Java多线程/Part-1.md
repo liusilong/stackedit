@@ -10,7 +10,8 @@
 	- 继承 Thread
 	- 实现 Runnable
 - 获取&设置一个线程的名字
-- xian
+- 线程优先级
+- 阻止线程执行的方法
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjM0OTE3MzVdfQ==
+eyJoaXN0b3J5IjpbMTM4NzU0OTkzNV19
 -->
