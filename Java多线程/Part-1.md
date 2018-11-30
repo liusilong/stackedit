@@ -12,6 +12,10 @@
 - 获取&设置一个线程的名字
 - 线程优先级
 - 阻止线程执行的方法
+	- yield
+	- join
+	- sleep
+- Synchronization
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4NzU0OTkzNV19
+eyJoaXN0b3J5IjpbMTEyMzk1NzIyOV19
 -->
