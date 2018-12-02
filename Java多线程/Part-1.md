@@ -19,7 +19,7 @@
 - 线程间通信
 - 死锁（DeadLock）
 - 守护线程（Deamon Thread）
-- 多线程
+- 多线程增强（enhancement）
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NjI3OTQ5MzldfQ==
+eyJoaXN0b3J5IjpbLTU0MjI3NDU4NiwtMTU2Mjc5NDkzOV19
 -->
