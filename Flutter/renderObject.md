@@ -3,7 +3,7 @@
 
 > Written with [StackEdit](https://stackedit.io/).
 
- 
+ ## RenderObject
 
   **An object in the render tree.**  
   
@@ -116,6 +116,5 @@
  or baseline information, it gets marked dirty whenever the child's geometry  
  changes.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NjQxNzY2OTIsLTE4MTU4NzA4MTNdfQ
-==
+eyJoaXN0b3J5IjpbLTEzMDk3ODQ0MywtMTgxNTg3MDgxM119
 -->
