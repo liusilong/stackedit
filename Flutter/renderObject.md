@@ -54,12 +54,12 @@
  discussion at [Constraints] for more information on how to write a  
  [Constraints] subclass.**  
   
- **The [performLayout] method should take the [constraints], and apply them.  
+ The [performLayout] method should take the [constraints], and apply them.  
  The output of the layout algorithm is fields set on the object that describe  
  the geometry of the object for the purposes of the parent's layout. For  
  example, with [RenderBox] the output is the [RenderBox.size] field. This  
  output should only be read by the parent if the parent specified  
- `parentUsesSize` as true when calling [layout] on the child.**  
+ `parentUsesSize` as true when calling [layout] on the child. 
   
  **Anytime anything changes on a render object that would affect the layout of  
  that object, it should call [markNeedsLayout].**  
@@ -116,5 +116,5 @@
  or baseline information, it gets marked dirty whenever the child's geometry  
  changes.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDk3ODQ0MywtMTgxNTg3MDgxM119
+eyJoaXN0b3J5IjpbLTkyMDc3MTk2NywtMTgxNTg3MDgxM119
 -->
