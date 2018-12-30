@@ -2,6 +2,8 @@
 
 
 > Written with [StackEdit](https://stackedit.io/).
+
+import 'package:flutter/foundation.dart';
  A delegate that controls the layout of multiple children.
 
  Delegates must be idempotent. Specifically, if two delegates are equal, then
@@ -79,5 +81,5 @@
  child list, regardless of the order in which [layoutChild] is called on
  them.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3MjU0Njg4MV19
+eyJoaXN0b3J5IjpbMTUyMzc3MjM2NF19
 -->
