@@ -73,8 +73,10 @@ Unchecked Exceptions 在程序的编译期间是不会检查的。在 C++ 中，
 
 直接属于 `java.lang.Throwable` 下的都属于 checked exception
 
-常见的 RuntimeException 有 
+常见的 **RuntimeException** 有 `ClassCastException`，`IllegalFormatException`， `NullPointerException` 等
+
+常见的 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwMDQ2MTc0Nyw4NzM2ODM2NzAsLTk2Mj
+eyJoaXN0b3J5IjpbLTQyNTk1MjgxNCw4NzM2ODM2NzAsLTk2Mj
 AxNTU4LC02OTg4NDQyOTFdfQ==
 -->
