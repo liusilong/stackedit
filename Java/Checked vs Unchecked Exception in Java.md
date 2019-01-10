@@ -12,19 +12,19 @@ Checked	Exceptions 会在程序编译期检查的异常。如果方法中的某�
 举例来说，考虑如下代码，代码的意思是打开 "c:\test\a.txt"位置上的文件然后输出该文件的前三行。这个程序不能编译，因为 main()  方法使用了 FileReader() 而 FileReader() 会抛出一个 checked exception 为 FileNotFoundException。程序中还使用了 readLine() 和 close() 方法，并且这些方法也会抛出 checked exception 为 IOException。
 
 ```java
-  
 import java.io.BufferedReader;  
 import java.io.FileReader;  
 public class Demo1 {  
     public static void main(String[] args) {  
-        FileReader file = new FileReader("/home/xxx/test.txt");  
+        // throw java.io.FileNotFoundException  		  FileReader file = new FileReader("/home/liusilong/workspace/test.txt");  
         BufferedReader fileInput = new BufferedReader(file);  
   
         for (int counter = 0; counter < 3; counter++) {  
-            System.out.println(fileInput.readLine());  
+            // throw java.io.IOException  
+  System.out.println(fileInput.readLine());  
         }  
-          
-        fileInput.close();  
+        // throw java.io.IOException  
+  fileInput.close();  
     }  
 }
 ``` 
@@ -37,6 +37,6 @@ public class Demo1 {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjU1NDgzNDk0LC05NjIwMTU1OCwtNjk4OD
-Q0MjkxXX0=
+eyJoaXN0b3J5IjpbMjE0Mjg3MTA4MiwtOTYyMDE1NTgsLTY5OD
+g0NDI5MV19
 -->
