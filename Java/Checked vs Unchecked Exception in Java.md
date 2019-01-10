@@ -67,8 +67,8 @@ null
 ```
 
 ### Unchecked Exception
-Unchecked Exceptions 在程序的编译期间是不会检查的。在 C++ 中，所有的异常都是 unchecked 的，因此bianyi
+Unchecked Exceptions 在程序的编译期间是不会检查的。在 C++ 中，所有的异常都是 unchecked 的，因此编译器不会强制处理或者指定异常。程序员应该自己指定和捕获异常
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4NTg4NTM5OSwtOTYyMDE1NTgsLTY5OD
-g0NDI5MV19
+eyJoaXN0b3J5IjpbMTk4MjIzMzk2LC05NjIwMTU1OCwtNjk4OD
+Q0MjkxXX0=
 -->
