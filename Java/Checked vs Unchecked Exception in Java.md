@@ -84,9 +84,11 @@ Unchecked Exceptions 在程序的编译期间是不会检查的。在 C++ 中，
 常见的 **Error** 有 `NoSuchFieldError`， `OutOfMemoryError`， `StackOverflowError`
 
 
-看看下面的例子，在编译器的时候是通过的，
+看看下面的例子，在编译器的时候是通过的，但是它在运行的时候会抛出 ArithmeticException，编译器允许它编译，因为  ArithmeticException 是一个 unchecked exception
+
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ2MzUyMDQ4OCwtMTc4NTQwNzEyLDg3Mz
+eyJoaXN0b3J5IjpbMjExNTkwOTU2MiwtMTc4NTQwNzEyLDg3Mz
 Y4MzY3MCwtOTYyMDE1NTgsLTY5ODg0NDI5MV19
 -->
