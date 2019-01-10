@@ -102,9 +102,9 @@ Output
 Exception in thread "main" java.lang.ArithmeticException: / by zero
 	at com.lsl.exception.Demo2.main(Demo2.java:7)
 ```
-
+我们可以使用 try
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDU5ODc3ODgsMjExNTkwOTU2MiwtMT
-c4NTQwNzEyLDg3MzY4MzY3MCwtOTYyMDE1NTgsLTY5ODg0NDI5
-MV19
+eyJoaXN0b3J5IjpbNzUzMjc2ODk1LDIxMTU5MDk1NjIsLTE3OD
+U0MDcxMiw4NzM2ODM2NzAsLTk2MjAxNTU4LC02OTg4NDQyOTFd
+fQ==
 -->
