@@ -57,7 +57,18 @@ public class Demo1 {
     }  
 }
 ```
+
+Output:
+
+```java
+hello world
+null
+null
+```
+
+### Unchecked Exception
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczMzA3ODcyMiwtOTYyMDE1NTgsLTY5OD
+eyJoaXN0b3J5IjpbMjA4MzgwODUwMywtOTYyMDE1NTgsLTY5OD
 g0NDI5MV19
 -->
