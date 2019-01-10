@@ -126,9 +126,32 @@ exception message: / by zero
 
 ### Why two types?
 
-看这里 
+See [Unchecked Exceptions — The Controversy](http://docs.oracle.com/javase/tutorial/essential/exceptions/runtime.html) for details.
+
+### **Should we make our exceptions checked or unchecked?**
+ 
+### 
+```java
+                   +-----------+
+           | Throwable |
+                   +-----------+
+                    /         \
+           /           \
+          +-------+          +-----------+
+          | Error |          | Exception |
+          +-------+          +-----------+
+       /  |  \           / |        \
+         \________/      \______/         \
+                            +------------------+
+    unchecked     checked    | RuntimeException |
+                    +------------------+
+                      /   |    |      \
+                     \_________________/
+                       
+                       unchecked
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyODMzMDU4MCwyMTE1OTA5NTYyLC0xNz
-g1NDA3MTIsODczNjgzNjcwLC05NjIwMTU1OCwtNjk4ODQ0Mjkx
-XX0=
+eyJoaXN0b3J5IjpbLTE5OTc4NjY1MjYsLTYyODMzMDU4MCwyMT
+E1OTA5NTYyLC0xNzg1NDA3MTIsODczNjgzNjcwLC05NjIwMTU1
+OCwtNjk4ODQ0MjkxXX0=
 -->
