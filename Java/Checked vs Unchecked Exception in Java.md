@@ -102,9 +102,29 @@ Output
 Exception in thread "main" java.lang.ArithmeticException: / by zero
 	at com.lsl.exception.Demo2.main(Demo2.java:7)
 ```
-我们可以使用 try
+我们可以使用 try-catch 代码块来捕获这个异常，如下：
+
+```java
+public class Demo2 {  
+    public static void main(String[] args) {  
+        try{  
+            int x = 0;  
+            int y = 10;  
+            int z = y / x;  
+        }catch (ArithmeticException e){  
+            System.out.println("exception message: "+ e.getMessage());  
+        }  
+    }  
+}
+```
+
+Output
+
+```java
+exception message: / by zero 
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzUzMjc2ODk1LDIxMTU5MDk1NjIsLTE3OD
-U0MDcxMiw4NzM2ODM2NzAsLTk2MjAxNTU4LC02OTg4NDQyOTFd
-fQ==
+eyJoaXN0b3J5IjpbMTgyNzIyOTEyNSwyMTE1OTA5NTYyLC0xNz
+g1NDA3MTIsODczNjgzNjcwLC05NjIwMTU1OCwtNjk4ODQ0Mjkx
+XX0=
 -->
