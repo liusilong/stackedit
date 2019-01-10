@@ -7,7 +7,7 @@
 在Java中，有两种类型的异常：
 
 ### Checked Exceptions
-Ch
+Checked	Exceptions 会在程序编译期检查的异常。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyNjM1MTMyNV19
+eyJoaXN0b3J5IjpbLTE1MDU5NDA4MjJdfQ==
 -->
