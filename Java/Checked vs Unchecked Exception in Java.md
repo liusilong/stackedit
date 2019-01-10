@@ -75,7 +75,7 @@ Unchecked Exceptions 在程序的编译期间是不会检查的。在 C++ 中，
 
 ### 举例
 
-#### Checked Exception
+#### Checked Exception 
 常见的 **Throwable** 有 `FileNotFoundException`
 
 #### UnChecked Exception
@@ -85,6 +85,6 @@ Unchecked Exceptions 在程序的编译期间是不会检查的。在 C++ 中，
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODU0MDcxMiw4NzM2ODM2NzAsLTk2Mj
-AxNTU4LC02OTg4NDQyOTFdfQ==
+eyJoaXN0b3J5IjpbLTE3OTI0MjU1NjAsLTE3ODU0MDcxMiw4Nz
+M2ODM2NzAsLTk2MjAxNTU4LC02OTg4NDQyOTFdfQ==
 -->
