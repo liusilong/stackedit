@@ -129,8 +129,12 @@ exception message: / by zero
 See [Unchecked Exceptions — The Controversy](http://docs.oracle.com/javase/tutorial/essential/exceptions/runtime.html) for details.
 
 ### Should we make our exceptions checked or unchecked?
- 如果客户端可以从异常中恢复，则可以将其设置为 checked exception，
-### 
+Following is the bottom line from [Java documents](http://docs.oracle.com/javase/tutorial/essential/exceptions/runtime.html)
+ *如果客户端可以从异常中恢复，则可以将其设置为 checked exception，反之，如果程序无法从异常中恢复，则应该将其设置为 unchecked exception*
+
+
+
+
 ```java
                    +-----------+
            | Throwable |
@@ -151,7 +155,7 @@ See [Unchecked Exceptions — The Controversy](http://docs.oracle.com/javase/tut
                        unchecked
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTk5Nzg0MzksLTYyODMzMDU4MCwyMT
+eyJoaXN0b3J5IjpbLTIxMjU3MzIzODgsLTYyODMzMDU4MCwyMT
 E1OTA5NTYyLC0xNzg1NDA3MTIsODczNjgzNjcwLC05NjIwMTU1
 OCwtNjk4ODQ0MjkxXX0=
 -->
