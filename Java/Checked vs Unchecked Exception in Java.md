@@ -31,8 +31,10 @@ public class Demo1 {
 
 上面的程序是编译不通过的。
 
-要修复上述的程序，我们可以使用 throws 来paoc
+要修复上述的程序，我们可以使用 throws 来抛出指定的异常，或者使用 try-catch 代码块开捕获异常。
+
+在下面d
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjI1MjQ2NjAsLTk2MjAxNTU4LC02OTg4ND
-QyOTFdfQ==
+eyJoaXN0b3J5IjpbLTI3NDE1ODkzNiwtOTYyMDE1NTgsLTY5OD
+g0NDI5MV19
 -->
