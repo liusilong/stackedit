@@ -75,8 +75,8 @@ Unchecked Exceptions 在程序的编译期间是不会检查的。在 C++ 中，
 
 常见的 **RuntimeException** 有 `ClassCastException`，`IllegalFormatException`， `NullPointerException` 等
 
-常见的 
+常见的 Error 有 `NoSuchFieldError`， ``OutOfMemoryError
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQyNTk1MjgxNCw4NzM2ODM2NzAsLTk2Mj
-AxNTU4LC02OTg4NDQyOTFdfQ==
+eyJoaXN0b3J5IjpbLTEwMzYxMTM4ODUsODczNjgzNjcwLC05Nj
+IwMTU1OCwtNjk4ODQ0MjkxXX0=
 -->
