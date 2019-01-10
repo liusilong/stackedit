@@ -69,8 +69,8 @@ null
 ### Unchecked Exception
 Unchecked Exceptions 在程序的编译期间是不会检查的。在 C++ 中，所有的异常都是 unchecked 的，因此编译器不会强制处理或者指定异常。程序员应该自己指定和捕获异常。
 
-在Java中，Error 和 RuntimeException 
+在Java中，`java.lang.Error` 和 `java.lang.RuntimeException` xia 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODczNjgzNjcwLC05NjIwMTU1OCwtNjk4OD
-Q0MjkxXX0=
+eyJoaXN0b3J5IjpbMTU2OTYxNDY4OCw4NzM2ODM2NzAsLTk2Mj
+AxNTU4LC02OTg4NDQyOTFdfQ==
 -->
