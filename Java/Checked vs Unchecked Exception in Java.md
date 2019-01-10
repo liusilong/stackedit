@@ -86,9 +86,25 @@ Unchecked Exceptions 在程序的编译期间是不会检查的。在 C++ 中，
 
 看看下面的例子，在编译器的时候是通过的，但是它在运行的时候会抛出 ArithmeticException，编译器允许它编译，因为  ArithmeticException 是一个 unchecked exception
 
+```java
+public class Demo2 {  
+    public static void main(String[] args) {  
+        int x = 0;  
+        int y = 10;  
+        int z = y / x;  
+    }  
+}
+```
 
+Output
+
+```java
+Exception in thread "main" java.lang.ArithmeticException: / by zero
+	at com.lsl.exception.Demo2.main(Demo2.java:7)
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjExNTkwOTU2MiwtMTc4NTQwNzEyLDg3Mz
-Y4MzY3MCwtOTYyMDE1NTgsLTY5ODg0NDI5MV19
+eyJoaXN0b3J5IjpbLTIwNDU5ODc3ODgsMjExNTkwOTU2MiwtMT
+c4NTQwNzEyLDg3MzY4MzY3MCwtOTYyMDE1NTgsLTY5ODg0NDI5
+MV19
 -->
