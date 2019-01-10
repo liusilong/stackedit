@@ -33,8 +33,8 @@ public class Demo1 {
 
 要修复上述的程序，我们可以使用 throws 来抛出指定的异常，或者使用 try-catch 代码块开捕获异常。
 
-在下面d
+在下面的程序中，我们使用 throws 开捕获异常，由于 FileNotException 是 IOException 的子类，所以我们只需指定 IOException 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3NDE1ODkzNiwtOTYyMDE1NTgsLTY5OD
-g0NDI5MV19
+eyJoaXN0b3J5IjpbNzkyNjcwODcwLC05NjIwMTU1OCwtNjk4OD
+Q0MjkxXX0=
 -->
