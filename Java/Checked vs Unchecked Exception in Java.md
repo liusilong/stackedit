@@ -77,8 +77,8 @@ Unchecked Exceptions 在程序的编译期间是不会检查的。在 C++ 中，
 
 常见的 **Error** 有 `NoSuchFieldError`， `OutOfMemoryError`， `StackOverflowError`
 
-常见的 Throwable 有
+常见的 Throwable 有 `FileNotFoundException`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODAxMjE1NjUsODczNjgzNjcwLC05Nj
-IwMTU1OCwtNjk4ODQ0MjkxXX0=
+eyJoaXN0b3J5IjpbLTI4Nzc0OTkxMyw4NzM2ODM2NzAsLTk2Mj
+AxNTU4LC02OTg4NDQyOTFdfQ==
 -->
