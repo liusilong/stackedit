@@ -123,8 +123,12 @@ Output
 ```java
 exception message: / by zero 
 ```
+
+### Why two types?
+
+看这里 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyNzIyOTEyNSwyMTE1OTA5NTYyLC0xNz
+eyJoaXN0b3J5IjpbLTYyODMzMDU4MCwyMTE1OTA5NTYyLC0xNz
 g1NDA3MTIsODczNjgzNjcwLC05NjIwMTU1OCwtNjk4ODQ0Mjkx
 XX0=
 -->
