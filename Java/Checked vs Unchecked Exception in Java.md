@@ -67,8 +67,8 @@ null
 ```
 
 ### Unchecked Exception
-
+Unchecked Exceptions 在程序的编译期间是不会检查的。在 C++ 中，所有的异常都是 unchecked 的，因此bianyi
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4MzgwODUwMywtOTYyMDE1NTgsLTY5OD
+eyJoaXN0b3J5IjpbMTY4NTg4NTM5OSwtOTYyMDE1NTgsLTY5OD
 g0NDI5MV19
 -->
