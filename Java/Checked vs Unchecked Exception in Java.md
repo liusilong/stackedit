@@ -71,8 +71,10 @@ Unchecked Exceptions 在程序的编译期间是不会检查的。在 C++ 中，
 
 在Java中，`java.lang.Error` 和 `java.lang.RuntimeException` 下的子类都是属于 unchecked exception
 
-`` 
+`java.lang.Throwable` 下的都属于 checked exception
+
+常见的 RuntimeExcep
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MjM4NTU3NjUsODczNjgzNjcwLC05Nj
+eyJoaXN0b3J5IjpbLTE4NjQ3OTI2MzksODczNjgzNjcwLC05Nj
 IwMTU1OCwtNjk4ODQ0MjkxXX0=
 -->
