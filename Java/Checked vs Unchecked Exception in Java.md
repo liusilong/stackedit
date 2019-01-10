@@ -16,15 +16,16 @@ import java.io.BufferedReader;
 import java.io.FileReader;  
 public class Demo1 {  
     public static void main(String[] args) {  
-        // throw java.io.FileNotFoundException  		  FileReader file = new FileReader("/home/liusilong/workspace/test.txt");  
+        // throw java.io.FileNotFoundException  
+		FileReader file = new FileReader("/home/liusilong/workspace/test.txt");  
         BufferedReader fileInput = new BufferedReader(file);  
   
         for (int counter = 0; counter < 3; counter++) {  
             // throw java.io.IOException  
-  System.out.println(fileInput.readLine());  
+			System.out.println(fileInput.readLine());  
         }  
         // throw java.io.IOException  
-  fileInput.close();  
+	    fileInput.close();  
     }  
 }
 ``` 
@@ -36,7 +37,27 @@ public class Demo1 {
 在下面的程序中，我们使用 throws 开捕获异常，由于 FileNotException 是 IOException 的子类，所以我们只需指定 IOException 就可以使上述程序没有在编译器的时候没有错误。
 
 
+```java
+import java.io.BufferedReader;  
+import java.io.FileReader;  
+import java.io.IOException;  
+  
+public class Demo1 {  
+    public static void main(String[] args) throws IOException {  // changed 
+        // throw java.io.FileNotFoundException  
+        FileReader file = new FileReader("/home/liusilong/workspace/test.txt");  
+        BufferedReader fileInput = new BufferedReader(file);  
+  
+        for (int counter = 0; counter < 3; counter++) {  
+            // throw java.io.IOException  
+            System.out.println(fileInput.readLine());  
+        }  
+        // throw java.io.IOException  
+       fileInput.close();  
+    }  
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE0Mjg3MTA4MiwtOTYyMDE1NTgsLTY5OD
+eyJoaXN0b3J5IjpbMTczMzA3ODcyMiwtOTYyMDE1NTgsLTY5OD
 g0NDI5MV19
 -->
