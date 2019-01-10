@@ -69,14 +69,14 @@ null
 ### Unchecked Exception
 Unchecked Exceptions 在程序的编译期间是不会检查的。在 C++ 中，所有的异常都是 unchecked 的，因此编译器不会强制处理或者指定异常。程序员应该自己指定和捕获异常。
 
-在Java中，`java.lang.Error` 和 `java.lang.RuntimeException` 下的子类都是属于 unchecked exception
+在Java中，`java.lang.Error` 和 `java.lang.RuntimeException` 下的子类都是属于 **unchecked exception**
 
-直接属于 `java.lang.Throwable` 下的都属于 checked exception
+直接属于 `java.lang.Throwable` 下的都属于 **checked exception**
 
 常见的 **RuntimeException** 有 `ClassCastException`，`IllegalFormatException`， `NullPointerException` 等
 
-常见的 Error 有 `NoSuchFieldError`， ``OutOfMemoryError
+常见的 Error 有 `NoSuchFieldError`， `OutOfMemoryError`， ``
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMzYxMTM4ODUsODczNjgzNjcwLC05Nj
+eyJoaXN0b3J5IjpbLTE2MTk3MTk5ODEsODczNjgzNjcwLC05Nj
 IwMTU1OCwtNjk4ODQ0MjkxXX0=
 -->
