@@ -8,7 +8,7 @@
 [原文链接](https://developer.inthepocket.mobi/2017/01/04/android-layoutmanager-part-1/)
 2019年03月04日
 
-在这一系列的文章中，我们将讨论 Android 中的 LayoutManager，我们将解释它的功能和作用，并讨论我们如何使用它来改进我们的某个应用cheng
+在这一系列的文章中，我们将讨论 Android 中的 LayoutManager，我们将解释它的功能和作用，并讨论我们如何使用它来改进我们的某个应用程序的核心功能。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTMwNjkyNDddfQ==
+eyJoaXN0b3J5IjpbNTgzNDcxMTY5XX0=
 -->
