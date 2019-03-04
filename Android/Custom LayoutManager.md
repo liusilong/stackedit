@@ -10,7 +10,8 @@
 
 在这一系列的文章中，我们将讨论 Android 中的 LayoutManager，我们将解释它的功能和作用，并讨论我们如何使用它来改进我们的某个应用程序的核心功能。
 
-第一部分我们将
+第一部分我们将讨论 LayoutManager 的概念以及它如何在
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyNzg3MTYxNCw1ODM0NzExNjldfQ==
+eyJoaXN0b3J5IjpbLTMzMTc4NzQ2MSwxODI3ODcxNjE0LDU4Mz
+Q3MTE2OV19
 -->
