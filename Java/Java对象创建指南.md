@@ -82,10 +82,14 @@ public User(String name, int id) {
 }
 ```
 
-现在，我们可以使用构造方法
+现在，我们可以使用构造方法去创建一个 User 对象，并且为其属性传入初始值：
+
+```java
+User user = new User("Alice", 1);
+```
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxMDk0OTY2OCw3MjI5MDYyODldfQ==
+eyJoaXN0b3J5IjpbMjE0NDg0ODMwMiw3MjI5MDYyODldfQ==
 -->
