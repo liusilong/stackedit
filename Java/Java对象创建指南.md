@@ -100,8 +100,17 @@ User user = new User("Alice", 1);
 | byte、short、int、long | 0 |
 | float、double | 0.0 |
 | char | '\u0000' |
-| boolean | false |
+| 引用类型 | null |
+  
+现在，让我们尝试定义一些与实例和类相关的变量，并测试它们是否具有默认值：
 
+```java
+public void test(){
+	User user = new User();
+	assetThat(user.getName()).isNull();
+	ass
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTE3NDk0OTYsNzIyOTA2Mjg5XX0=
+eyJoaXN0b3J5IjpbMTY3NzYyMDMyOCw3MjI5MDYyODldfQ==
 -->
