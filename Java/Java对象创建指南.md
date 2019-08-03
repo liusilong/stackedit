@@ -182,8 +182,13 @@ static{
 
 Java 中的所有对象都存储在我们程序的堆内存上。事实上，堆表示为我们引用分配的大量未使用的内存池。
 
-另一方面，垃圾收集器是一个Java程序，它通过删除不再可访问的对象来处理自动内存管理
+另一方面，垃圾收集器是一个Java程序，它通过删除不再可访问的对象来处理自动内存管理。
+
+要是 Java 对象变的无法访问，必须遇到以下情况之一：
+
+- 这个对象不再有任何引用指向它
+- 指向该对象的所有引用都chao'chu
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczNzY3NzMwMiwtMjE0NTIyOTUyOSwtOT
+eyJoaXN0b3J5IjpbLTQxNjQ3ODI1MiwtMjE0NTIyOTUyOSwtOT
 Y4NzgyMDg3LDE1ODI3NDU2NDEsNzIyOTA2Mjg5XX0=
 -->
