@@ -36,8 +36,10 @@ public class User{
 ## 3. Object vs. Primitives(对象类型和原始类型)
 Java 提供了两种数据类型的表示：原始类型和引用类型。在这个部分，我们将讨论二者在初始化方面的差异。
 
-Java 有 8 中内建的数据类型，
+Java 有 8 中内置的数据类型，称为原始数据类型，这种类型的变量直接保存它们的值。
+
+引用类型包含对象（类的实例）的引用。
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwMDY3NDMyXX0=
+eyJoaXN0b3J5IjpbNzIzNDcyMjUxXX0=
 -->
