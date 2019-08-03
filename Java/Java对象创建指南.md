@@ -139,9 +139,11 @@ private static final int YEAR = 2000;
 常量要么在声明时初始化，要么在构造方法中初始化。
 
 ## 8. Initializers in Java
+在 Java 中，初始化程序是一个代码块，它没有关联的名称或数据类型，并且放在任何方法，构造方法或其他代码块之外。
 
+Java ti
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2ODc4MjA4NywxNTgyNzQ1NjQxLDcyMj
-kwNjI4OV19
+eyJoaXN0b3J5IjpbNDU3NzA5MjE2LC05Njg3ODIwODcsMTU4Mj
+c0NTY0MSw3MjI5MDYyODldfQ==
 -->
