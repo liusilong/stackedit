@@ -167,10 +167,13 @@ static{
 ## 9. Order of Initialization(初始化的顺序)
 当编写初始化不同类型字段的代码时，我们必须密切关注初始化的顺序。
 
+在 Java 中，初始化语句的执行顺序如下：
 
+- 首先按照顺序执行静态变量和静态代码块
+- 接着an
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNDUyMjk1MjksLTk2ODc4MjA4NywxNT
-gyNzQ1NjQxLDcyMjkwNjI4OV19
+eyJoaXN0b3J5IjpbLTMyMDQ5MDMyOSwtMjE0NTIyOTUyOSwtOT
+Y4NzgyMDg3LDE1ODI3NDU2NDEsNzIyOTA2Mjg5XX0=
 -->
