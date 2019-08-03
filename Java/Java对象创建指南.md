@@ -191,8 +191,12 @@ Java 中的所有对象都存储在我们程序的堆内存上。事实上，堆
 
 总之，首先从一个类创建一个对象，通常使用关键字new。然后，该对象将继续其生命，并为我们提供访问其方法和变量的途径。
 
-最后，当它不再需要的时候，la'ji'shou
+最后，当它不再需要的时候，垃圾收集器会摧毁它。
+
+## 11. Other Methods for Creating Objects
+
+在本节中，我们将简要介绍除new关键字之外的方法来创建对象以及如何应用它们，特别是反射，克隆和序列化。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNTg0NjM4NjksLTIxNDUyMjk1MjksLT
-k2ODc4MjA4NywxNTgyNzQ1NjQxLDcyMjkwNjI4OV19
+eyJoaXN0b3J5IjpbMTM1MDMyMzE5MCwtMjE0NTIyOTUyOSwtOT
+Y4NzgyMDg3LDE1ODI3NDU2NDEsNzIyOTA2Mjg5XX0=
 -->
