@@ -52,8 +52,16 @@ public void test(){
 }
 ```
 
-正如我们所看到的，可以使用关键字 new 来为新引用
+正如我们所看到的，可以使用关键字 new 来为新引用分配引用，该关键字负责创建新的 User 对象。
+
+让我们继续学习更过的关于对象的创建。
+
+## 5. Creating Objects(创建对象)
+
+不像
+
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyMzU2OTMzMV19
+eyJoaXN0b3J5IjpbNTI5MTkxOTkzXX0=
 -->
