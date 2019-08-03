@@ -170,10 +170,16 @@ static{
 在 Java 中，初始化语句的执行顺序如下：
 
 - 首先按照顺序执行静态变量和静态代码块
-- 接着an
+- 接着按照顺序执行实例变量和实例代码块
+- 最后执行构造方法
+
+
+## 10. Object Life Cycle (对象的声明周期)
+
+到目前为止，我们讨论了对象的声明和初始化，现在
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyMDQ5MDMyOSwtMjE0NTIyOTUyOSwtOT
-Y4NzgyMDg3LDE1ODI3NDU2NDEsNzIyOTA2Mjg5XX0=
+eyJoaXN0b3J5IjpbMTc4NjAxMDg2LC0yMTQ1MjI5NTI5LC05Nj
+g3ODIwODcsMTU4Mjc0NTY0MSw3MjI5MDYyODldfQ==
 -->
