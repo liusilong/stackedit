@@ -58,10 +58,10 @@ public void test(){
 
 ## 5. Creating Objects(创建对象)
 
-不像原始类型，Object 类型的创建有些复杂。
+不像原始类型，Object 类型的创建有些复杂。这是因为我们不只是将值添加到声明的变量上，相反，我们使用了 new 关键字来触发初始化。zhe'xia
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDg0MDgwMzJdfQ==
+eyJoaXN0b3J5IjpbLTIwMzg4MzIzOTBdfQ==
 -->
