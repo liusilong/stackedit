@@ -141,9 +141,12 @@ private static final int YEAR = 2000;
 ## 8. Initializers in Java
 在 Java 中，初始化程序是一个代码块，它没有关联的名称或数据类型，并且放在任何方法，构造方法或其他代码块之外。
 
-Java ti
+Java 提供了两种类型的初始化器，静态和实例初始化器，然我们看看如何使用他们。
+
+### 8.1 Instance Initializers
+我们可以使用他们来初始化实例变量。
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDU3NzA5MjE2LC05Njg3ODIwODcsMTU4Mj
-c0NTY0MSw3MjI5MDYyODldfQ==
+eyJoaXN0b3J5IjpbLTE3NzAyMDg5NTgsLTk2ODc4MjA4NywxNT
+gyNzQ1NjQxLDcyMjkwNjI4OV19
 -->
