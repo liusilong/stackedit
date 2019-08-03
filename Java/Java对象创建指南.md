@@ -97,11 +97,11 @@ User user = new User("Alice", 1);
 |  Type| Default Value  |
 |--|--|
 | boolean | false |
-| boolean | false |
-| boolean | false |
-| boolean | false |
+| byte、short、int、long | 0 |
+| float、double | 0.0 |
+| char | '\u0000' |
 | boolean | false |
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5NjU2MTQ3Niw3MjI5MDYyODldfQ==
+eyJoaXN0b3J5IjpbLTExNTE3NDk0OTYsNzIyOTA2Mjg5XX0=
 -->
