@@ -178,8 +178,10 @@ static{
 
 到目前为止，我们讨论了对象的声明和初始化，让我们继续讨论当对象不再使用之后会发生什么。
 
-不想其他语言一样我们需要担心对象的销毁，
+不想其他语言一样我们需要担心对象的销毁，Java 通过垃圾收集器处理过时的对象。
+
+Java 中的所有对象都存储在我们程序的堆内存上。事实上，dui
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjI1NTIyMjQsLTIxNDUyMjk1MjksLT
+eyJoaXN0b3J5IjpbLTEwOTE2ODA4MTksLTIxNDUyMjk1MjksLT
 k2ODc4MjA4NywxNTgyNzQ1NjQxLDcyMjkwNjI4OV19
 -->
