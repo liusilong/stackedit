@@ -165,10 +165,12 @@ static{
 ```
 
 ## 9. Order of Initialization(初始化的顺序)
-当编写初始化不同类型字段的代码时，我们必须密切关注ch
+当编写初始化不同类型字段的代码时，我们必须密切关注初始化的顺序。
+
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2OTIwNDE0OSwtOTY4NzgyMDg3LDE1OD
-I3NDU2NDEsNzIyOTA2Mjg5XX0=
+eyJoaXN0b3J5IjpbLTIxNDUyMjk1MjksLTk2ODc4MjA4NywxNT
+gyNzQ1NjQxLDcyMjkwNjI4OV19
 -->
