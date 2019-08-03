@@ -180,8 +180,10 @@ static{
 
 不想其他语言一样我们需要担心对象的销毁，Java 通过垃圾收集器处理过时的对象。
 
-Java 中的所有对象都存储在我们程序的堆内存上。事实上，dui
+Java 中的所有对象都存储在我们程序的堆内存上。事实上，堆表示为我们引用分配的大量未使用的内存池。
+
+另一方面，垃圾收集器是一个Java程序，它通过删除不再可访问的对象来处理自动内存管理
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTE2ODA4MTksLTIxNDUyMjk1MjksLT
-k2ODc4MjA4NywxNTgyNzQ1NjQxLDcyMjkwNjI4OV19
+eyJoaXN0b3J5IjpbLTczNzY3NzMwMiwtMjE0NTIyOTUyOSwtOT
+Y4NzgyMDg3LDE1ODI3NDU2NDEsNzIyOTA2Mjg5XX0=
 -->
