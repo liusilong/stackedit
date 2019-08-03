@@ -70,6 +70,7 @@ public void test(){
 
 一个类可以有多个构造方法只要他们的参数集合不同。
 
+Every constructor that doesn’t call another constructor in the same class has a call to its parent constructor whether it was written explicitly or inserted by the compiler through _super()_.
 
 
 
@@ -77,5 +78,5 @@ public void test(){
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzIyOTA2Mjg5XX0=
+eyJoaXN0b3J5IjpbMTk5MjkyMDY4OCw3MjI5MDYyODldfQ==
 -->
