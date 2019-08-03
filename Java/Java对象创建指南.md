@@ -10,8 +10,8 @@
 简单的说，在我们可以使用 JVM上的对象之前，这个对象必须已经被初始化了的。在接下来的几个部分中，我们将介绍初始化基本数据类型及 Object 类型的对象的各种初始化方法。
 
 ## 2. Declaration vs. Initialization(声明和初始化)
-
+声明是ding'yi
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3NTI5NjgzOV19
+eyJoaXN0b3J5IjpbMjIwMDk3OTFdfQ==
 -->
