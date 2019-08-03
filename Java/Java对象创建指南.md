@@ -155,9 +155,13 @@ Java 提供了两种类型的初始化器，静态和实例初始化器，然我
 ```
 
 ### 8.2 Static Initialization Block
-yi
+一个静态的初始化器或者静态代码块是一个用来初始化静态变量的代码块。
+
+```java
+private static String forun
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1MzgzNzYxMCwtOTY4NzgyMDg3LDE1OD
+eyJoaXN0b3J5IjpbMTk0NTE1NTQ4NCwtOTY4NzgyMDg3LDE1OD
 I3NDU2NDEsNzIyOTA2Mjg5XX0=
 -->
