@@ -77,8 +77,8 @@ Every constructor that doesn’t call another constructor in the same class has 
 
 ```java
 public User(String name, int id) {
-	this.name = name;
-	this.id = id;
+  this.name = name;
+  this.id = id;
 }
 ```
 
@@ -103,23 +103,14 @@ User user = new User("Alice", 1);
 | char | '\u0000' |
 | 引用类型 | null |
 
-
-| afasf | asf  |
-| ----- | ---- |
-| asf   | a    |
-| asdf  | asdf |
-| asdf  | asdf |
-| asdf  | adf  |
-| asdf  | af   |
-
   
 现在，让我们尝试定义一些与实例和类相关的变量，并测试它们是否具有默认值：
 
 ```java
 public void test(){
-	User user = new User();
-	assetThat(user.getName()).isNull();
-	assetThat(user.getId() == 0);
+  User user = new User();
+  assetThat(user.getName()).isNull();
+  assetThat(user.getId() == 0);
 }
 ```
 
@@ -130,8 +121,8 @@ public void test(){
 
 ```java
 public void print(){
-	int i;
-	System.out.print(i);
+  int i;
+  System.out.print(i);
 }
 ```
 
@@ -151,6 +142,6 @@ private static final int YEAR = 2000;
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MzAxMDcxNDgsMTU4Mjc0NTY0MSw3Mj
-I5MDYyODldfQ==
+eyJoaXN0b3J5IjpbLTk2ODc4MjA4NywxNTgyNzQ1NjQxLDcyMj
+kwNjI4OV19
 -->
