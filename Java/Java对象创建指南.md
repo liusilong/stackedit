@@ -31,8 +31,11 @@ public class User{
 }
 ```
 
-接下来，我们将看到
+接下来，我们将看到它们初始化时的不同，初始化的方式取决于我们要初始化的字段类型。
+
+## 3. Object vs. Primitives(对象类型和原始类型)
+Java
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzMzg1MDE2N119
+eyJoaXN0b3J5IjpbMTU2MDg5NjEwMl19
 -->
