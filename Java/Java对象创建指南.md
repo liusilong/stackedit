@@ -66,12 +66,16 @@ public void test(){
 
 构造方法通常用于初始化表示所创建对象主要属性的实例变量。
 
-如果我们没有明确的提供一个构造方法，编译器将会c'ji
+如果我们没有明确的提供一个构造方法，编译器将会创建一个默认的无参数的构造方法，这个构造方法仅仅用来为这个对象分配内存。
+
+一个类可以有多个构造方法只要他们的参数集合不同。
+
+
 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjk5MTUyMzU4XX0=
+eyJoaXN0b3J5IjpbNzIyOTA2Mjg5XX0=
 -->
