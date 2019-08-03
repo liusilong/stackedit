@@ -42,8 +42,10 @@ Java 有 8 中内置的数据类型，称为原始数据类型，这种类型的
 
 相反，引用通过存储对象所在存储器地址指向对象。
 
-请注意，Java 不允许我们
+请注意，Java 不允许我们去发现内存地址是什么。相反，我们只能使用引用来引用该对象。
+
+然我们看看一个声明并初始化一个引用类型的 User 类的li
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5Nzg4ODc1XX0=
+eyJoaXN0b3J5IjpbMTQ2MjAwNjM3NF19
 -->
