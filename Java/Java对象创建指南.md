@@ -103,6 +103,15 @@ User user = new User("Alice", 1);
 | char | '\u0000' |
 | 引用类型 | null |
 
+
+| afasf | asf  |
+| ----- | ---- |
+| asf   | a    |
+| asdf  | asdf |
+| asdf  | asdf |
+| asdf  | adf  |
+| asdf  | af   |
+
   
 现在，让我们尝试定义一些与实例和类相关的变量，并测试它们是否具有默认值：
 
@@ -142,5 +151,6 @@ private static final int YEAR = 2000;
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4Mjc0NTY0MSw3MjI5MDYyODldfQ==
+eyJoaXN0b3J5IjpbMTI2ODQwMTUwMCwxNTgyNzQ1NjQxLDcyMj
+kwNjI4OV19
 -->
