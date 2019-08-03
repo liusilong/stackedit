@@ -176,10 +176,10 @@ static{
 
 ## 10. Object Life Cycle (对象的声明周期)
 
-到目前为止，我们讨论了对象的声明和初始化，现在
+到目前为止，我们讨论了对象的声明和初始化，让我们继续讨论当对象不再使用之后会发生什么。
 
-
+不想其他语言一样我们需要担心对象的销毁，
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc4NjAxMDg2LC0yMTQ1MjI5NTI5LC05Nj
-g3ODIwODcsMTU4Mjc0NTY0MSw3MjI5MDYyODldfQ==
+eyJoaXN0b3J5IjpbLTIwMjI1NTIyMjQsLTIxNDUyMjk1MjksLT
+k2ODc4MjA4NywxNTgyNzQ1NjQxLDcyMjkwNjI4OV19
 -->
