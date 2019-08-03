@@ -136,7 +136,9 @@ private static final int YEAR = 2000;
 
 常量要么在声明时初始化，要么在构造方法中初始化。
 
-## 8. Initializers
+## 8. Initializers in Java
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1Mzg0NTA5MDIsNzIyOTA2Mjg5XX0=
+eyJoaXN0b3J5IjpbLTEyMTEwOTY5ODMsNzIyOTA2Mjg5XX0=
 -->
