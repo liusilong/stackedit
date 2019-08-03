@@ -71,12 +71,21 @@ public void test(){
 一个类可以有多个构造方法只要他们的参数集合不同。
 
 Every constructor that doesn’t call another constructor in the same class has a call to its parent constructor whether it was written explicitly or inserted by the compiler through _super()_.
+> 每个不在同一个类中调用另一个构造函数的构造函数都会调用其父构造函数，无论它是由显式编写还是由编译器通过super（）编写。
 
+让我们给 User 类加上一个构造方法：
 
+```java
+public User(String name, int id) {
+	this.name = name;
+	this.id = id;
+}
+```
 
+现在，我们可以使用构造方法
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5MjkyMDY4OCw3MjI5MDYyODldfQ==
+eyJoaXN0b3J5IjpbMTkxMDk0OTY2OCw3MjI5MDYyODldfQ==
 -->
