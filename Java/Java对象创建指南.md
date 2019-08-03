@@ -94,6 +94,7 @@ User user = new User("Alice", 1);
 
 ### Instance and Class Variables
 实例变量和类变量不需要我们初始化它们。一旦我们声明这些变量，就会给他们一个默认值，如下所示：
+
 |  Type| Default Value  |
 |--|--|
 | boolean | false |
@@ -101,6 +102,7 @@ User user = new User("Alice", 1);
 | float、double | 0.0 |
 | char | '\u0000' |
 | 引用类型 | null |
+
   
 现在，让我们尝试定义一些与实例和类相关的变量，并测试它们是否具有默认值：
 
@@ -140,5 +142,5 @@ private static final int YEAR = 2000;
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTEwOTY5ODMsNzIyOTA2Mjg5XX0=
+eyJoaXN0b3J5IjpbMTU4Mjc0NTY0MSw3MjI5MDYyODldfQ==
 -->
