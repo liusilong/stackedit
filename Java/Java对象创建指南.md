@@ -38,8 +38,8 @@ Java 提供了两种数据类型的表示：原始类型和引用类型。在这
 
 Java 有 8 中内置的数据类型，称为原始数据类型，这种类型的变量直接保存它们的值。
 
-引用类型包含对象（类的实例）的引用。
+引用类型包含对象（类的实例）的引用。与在分配bian'la
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzIzNDcyMjUxXX0=
+eyJoaXN0b3J5IjpbLTE5Njk4NDI1NDZdfQ==
 -->
