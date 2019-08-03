@@ -89,7 +89,11 @@ User user = new User("Alice", 1);
 ```
 
 
+## 6. Variable Scope(变量范围)
+在下面的部分中，我们将了解Java中的变量可以存在的不同类型的范围以及它如何影响初始化过程。
+
+### Instance and Class Variables
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE0NDg0ODMwMiw3MjI5MDYyODldfQ==
+eyJoaXN0b3J5IjpbMTQ3MDk2MDQwOCw3MjI5MDYyODldfQ==
 -->
