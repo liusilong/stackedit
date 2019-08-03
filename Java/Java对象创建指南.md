@@ -26,8 +26,8 @@ id = 1;
 
 ```java
 public class User{
- private String name;
- private int id;
+  private String name;
+  private int id;
 }
 ```
 
@@ -151,6 +151,6 @@ private static final int YEAR = 2000;
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxMTQ5MjAxMiwxNTgyNzQ1NjQxLDcyMj
-kwNjI4OV19
+eyJoaXN0b3J5IjpbLTEzMzI2NDkzMzIsMTU4Mjc0NTY0MSw3Mj
+I5MDYyODldfQ==
 -->
