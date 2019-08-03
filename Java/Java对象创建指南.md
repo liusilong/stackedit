@@ -58,10 +58,10 @@ public void test(){
 
 ## 5. Creating Objects(创建对象)
 
-不像
+不像原始类型，Object 类型的创建有些复杂。
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTI5MTkxOTkzXX0=
+eyJoaXN0b3J5IjpbLTExNDg0MDgwMzJdfQ==
 -->
