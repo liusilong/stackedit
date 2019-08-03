@@ -22,8 +22,17 @@ int id;
 id = 1;
 ```
 
-为了演示，我们创建一个 User 类，在里面声明 name 和 id
+为了演示，我们创建一个 User 类，在里面声明 name 和 id 属性：
+
+```java
+public class User{
+	private String name;
+	private int id;
+}
+```
+
+接下来，我们将看到
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2NTc3NTM0N119
+eyJoaXN0b3J5IjpbMTYzMzg1MDE2N119
 -->
