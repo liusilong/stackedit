@@ -34,8 +34,8 @@ public class User{
 接下来，我们将看到它们初始化时的不同，初始化的方式取决于我们要初始化的字段类型。
 
 ## 3. Object vs. Primitives(对象类型和原始类型)
-Java
+Java 提供了两种数据类型的表示：原始类型和引用类型。
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2MDg5NjEwMl19
+eyJoaXN0b3J5IjpbMTM0MTA4OTUzN119
 -->
