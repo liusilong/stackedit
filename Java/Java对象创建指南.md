@@ -93,7 +93,15 @@ User user = new User("Alice", 1);
 在下面的部分中，我们将了解Java中的变量可以存在的不同类型的范围以及它如何影响初始化过程。
 
 ### Instance and Class Variables
+实例变量和类变量不需要我们初始化它们。一旦我们声明这些变量，就会给他们一个默认值，如下所示：
+|  Type| Default Value  |
+|--|--|
+| boolean | false |
+| boolean | false |
+| boolean | false |
+| boolean | false |
+| boolean | false |
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3MDk2MDQwOCw3MjI5MDYyODldfQ==
+eyJoaXN0b3J5IjpbMTU5NjU2MTQ3Niw3MjI5MDYyODldfQ==
 -->
