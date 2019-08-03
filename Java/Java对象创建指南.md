@@ -62,10 +62,14 @@ public void test(){
 
 让我们更加详细的讨论构造方法和 new 关键字。
 
-new 关键字负责通过构造函数为新对象分配ne
+**new 关键字负责通过构造函数为新对象分配内存。**
+
+
+
+
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwMzgzMzU1OF19
+eyJoaXN0b3J5IjpbMzA1MTQ5NzY0XX0=
 -->
