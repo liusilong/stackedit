@@ -113,7 +113,18 @@ public void test(){
 ```
 
 ### Local Variables (局部变量)
-局部变量在使用之前必须初始化，
+局部变量在使用之前必须初始化，因为它们没有默认值，并且编译器不让我们使用一个没有初始化过的值。
+
+例如，一下代码会生成一个编译错误：
+
+```java
+public void print(){
+	int i;
+	System.out.print(i);
+}
+```
+
+## 7. The Final ke
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODMxNDcwOTk0LDcyMjkwNjI4OV19
+eyJoaXN0b3J5IjpbNzAzODMyOTgsNzIyOTA2Mjg5XX0=
 -->
