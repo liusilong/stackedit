@@ -196,7 +196,55 @@ Java 中的所有对象都存储在我们程序的堆内存上。事实上，堆
 ## 11. Other Methods for Creating Objects
 
 在本节中，我们将简要介绍除new关键字之外的方法来创建对象以及如何应用它们，特别是反射，克隆和序列化。
+
+**Reflection is a mechanism we can use to inspect classes, fields, and methods at run-time.** Here’s an example of creating our _User_ object using reflection:
+
+```java
+@Test
+public void whenInitializedWithReflection_thenInstanceIsNotNull() 
+  throws Exception {
+    User user = User.class.getConstructor(String.class, int.class)
+      .newInstance("Alice", 2);
+  
+    assertThat(user).isNotNull();
+}
+```
+
+In this case, we’re using reflection to find and invoke a constructor of the  _User_  class.
+
+The next method,  **cloning, is a way to create an exact copy of an object.**  For this, our  _User_  class must implement the  _Cloneable_  interface:
+
+
+```java
+public class User implements Cloneable { //... }
+```
+
+Now we can use the _clone()_ method to create a new _clonedUser_ object which has the same property values as the _user_ object:
+
+```java
+@Test
+public void whenCopiedWithClone_thenExactMatchIsCreated() 
+  throws CloneNotSupportedException {
+    User user = new User("Alice", 3);
+    User clonedUser = (User) user.clone();
+  
+    assertThat(clonedUser).isEqualTo(user);
+}
+```
+
+**We can also use the  _[sun.misc.Unsafe](https://www.baeldung.com/java-unsafe)_  class to allocate memory for an object without calling a constructor:**
+
+```java
+User u = (User) unsafeInstance.allocateInstance(User.class);
+```
+
+## 12. Conclusion
+
+In this tutorial, we covered initialization of fields in Java. We discovered different data types in Java and how to use them. We also took an in-depth on several ways of creating objects in Java.
+
+The full implementation of this tutorial can be found  [over on Github](https://github.com/eugenp/tutorials/tree/master/core-java-modules/core-java-lang-syntax).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1MDMyMzE5MCwtMjE0NTIyOTUyOSwtOT
-Y4NzgyMDg3LDE1ODI3NDU2NDEsNzIyOTA2Mjg5XX0=
+eyJoaXN0b3J5IjpbMTg3OTIzOTE3NiwxMzUwMzIzMTkwLC0yMT
+Q1MjI5NTI5LC05Njg3ODIwODcsMTU4Mjc0NTY0MSw3MjI5MDYy
+ODldfQ==
 -->
