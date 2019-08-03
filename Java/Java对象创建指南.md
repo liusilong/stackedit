@@ -146,7 +146,18 @@ Java 提供了两种类型的初始化器，静态和实例初始化器，然我
 ### 8.1 Instance Initializers
 我们可以使用他们来初始化实例变量。
 
+为了演示，让我们在 User 类中使用实例化初始化器为 id 赋值：
+
+```java
+{
+  id = 0;
+}
+```
+
+### 8.2 Static Initialization Block
+yi
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NzAyMDg5NTgsLTk2ODc4MjA4NywxNT
-gyNzQ1NjQxLDcyMjkwNjI4OV19
+eyJoaXN0b3J5IjpbLTc1MzgzNzYxMCwtOTY4NzgyMDg3LDE1OD
+I3NDU2NDEsNzIyOTA2Mjg5XX0=
 -->
