@@ -48,7 +48,7 @@ Java 有 8 中内置的数据类型，称为原始数据类型，这种类型的
 
 ```java
 public void test(){
-	User user = new User();
+  User user = new User();
 }
 ```
 
@@ -151,6 +151,6 @@ private static final int YEAR = 2000;
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzI2NDkzMzIsMTU4Mjc0NTY0MSw3Mj
+eyJoaXN0b3J5IjpbLTE3MzAxMDcxNDgsMTU4Mjc0NTY0MSw3Mj
 I5MDYyODldfQ==
 -->
