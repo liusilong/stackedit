@@ -128,7 +128,15 @@ public void print(){
 
 final 关键字用在变量上意味着这个变量的值一旦初始化之后就不能再次改变。通过这种方式，我们可以在 Java 中声明常量。
 
-下面，我们在
+下面，我们在 User 类中添加一个常量：
+
+```java
+private static final int YEAR = 2000;
+```
+
+常量要么在声明时初始化，要么在构造方法中初始化。
+
+## 8. Initializers
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODcxMzIwNDEsNzIyOTA2Mjg5XX0=
+eyJoaXN0b3J5IjpbLTE1Mzg0NTA5MDIsNzIyOTA2Mjg5XX0=
 -->
