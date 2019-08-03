@@ -64,12 +64,14 @@ public void test(){
 
 **new 关键字负责通过构造函数为新对象分配内存。**
 
+构造方法通常用于初始化表示所创建对象主要属性的实例变量。
 
+如果我们没有明确的提供一个构造方法，编译器将会c'ji
 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzA1MTQ5NzY0XX0=
+eyJoaXN0b3J5IjpbMjk5MTUyMzU4XX0=
 -->
