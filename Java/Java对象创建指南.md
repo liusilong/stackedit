@@ -108,9 +108,12 @@ User user = new User("Alice", 1);
 public void test(){
 	User user = new User();
 	assetThat(user.getName()).isNull();
-	ass
+	assetThat(user.getId() == 0);
 }
 ```
+
+### Local Variables (局部变量)
+局部变量在使用之前必须初始化，
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3NzYyMDMyOCw3MjI5MDYyODldfQ==
+eyJoaXN0b3J5IjpbODMxNDcwOTk0LDcyMjkwNjI4OV19
 -->
