@@ -15,8 +15,15 @@
 ```java
 int id;
 ```
-初始化就是
+
+初始化就是为声明的变量分配一个值，如：
+
+```java
+id = 1;
+```
+
+为了演示，我们创建一个 User 类，在里面声明 name 和 id
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTY1NjE4MjA5XX0=
+eyJoaXN0b3J5IjpbLTk2NTc3NTM0N119
 -->
