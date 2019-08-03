@@ -44,8 +44,16 @@ Java 有 8 中内置的数据类型，称为原始数据类型，这种类型的
 
 请注意，Java 不允许我们去发现内存地址是什么。相反，我们只能使用引用来引用该对象。
 
-然我们看看一个声明并初始化一个引用类型的 User 类的li
+让我们看看一个声明并初始化一个引用类型的 User 类的例子：
+
+```java
+public void test(){
+	User user = new User();
+}
+```
+
+正如我们所看到的，可以使用关键字 new 来为新引用
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2MjAwNjM3NF19
+eyJoaXN0b3J5IjpbLTYyMzU2OTMzMV19
 -->
