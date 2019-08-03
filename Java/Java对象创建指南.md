@@ -40,6 +40,10 @@ Java 有 8 中内置的数据类型，称为原始数据类型，这种类型的
 
 引用类型包含对象（类的实例）的引用。与在分配变量的内存中保存其值的原始类型不同，引用不包含它们引用的对象的值。
 
+相反，引用通过存储对象所在存储器地址指向对象。
+
+请注意，Java 不允许我们
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzM5ODAwNTY3XX0=
+eyJoaXN0b3J5IjpbMTI5Nzg4ODc1XX0=
 -->
