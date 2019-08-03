@@ -58,10 +58,14 @@ public void test(){
 
 ## 5. Creating Objects(创建对象)
 
-不像原始类型，Object 类型的创建有些复杂。这是因为我们不只是将值添加到声明的变量上，相反，我们使用了 new 关键字来触发初始化。zhe'xia
+不像原始类型，Object 类型的创建有些复杂。这是因为我们不只是将值添加到声明的变量上，相反，我们使用了 new 关键字来触发初始化。这将会调用构造方法并初始化内存中的对象。
+
+让我们更加详细的讨论构造方法和 new 关键字。
+
+new 关键字负责通过构造函数为新对象分配ne
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzg4MzIzOTBdfQ==
+eyJoaXN0b3J5IjpbMTgwMzgzMzU1OF19
 -->
