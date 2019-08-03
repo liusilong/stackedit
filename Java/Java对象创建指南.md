@@ -10,8 +10,13 @@
 简单的说，在我们可以使用 JVM上的对象之前，这个对象必须已经被初始化了的。在接下来的几个部分中，我们将介绍初始化基本数据类型及 Object 类型的对象的各种初始化方法。
 
 ## 2. Declaration vs. Initialization(声明和初始化)
-声明是ding'yi
+声明是定义一个变量类型及其名字的过程。这我们声明一个 id 变量：
+
+```java
+int id;
+```
+初始化就是
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjIwMDk3OTFdfQ==
+eyJoaXN0b3J5IjpbOTY1NjE4MjA5XX0=
 -->
