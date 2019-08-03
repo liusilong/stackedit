@@ -124,7 +124,11 @@ public void print(){
 }
 ```
 
-## 7. The Final ke
+## 7. The Final keyword
+
+final 关键字用在变量上意味着这个变量的值一旦初始化之后就不能再次改变。通过这种方式，我们可以在 Java 中声明常量。
+
+下面，我们在
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzAzODMyOTgsNzIyOTA2Mjg5XX0=
+eyJoaXN0b3J5IjpbLTE5ODcxMzIwNDEsNzIyOTA2Mjg5XX0=
 -->
