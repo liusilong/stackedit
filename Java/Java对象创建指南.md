@@ -187,8 +187,12 @@ Java 中的所有对象都存储在我们程序的堆内存上。事实上，堆
 要是 Java 对象变的无法访问，必须遇到以下情况之一：
 
 - 这个对象不再有任何引用指向它
-- 指向该对象的所有引用都chao'chu
+- 指向该对象的所有引用都超出范围
+
+总之，首先从一个类创建一个对象，通常使用关键字new。然后，该对象将继续其生命，并为我们提供访问其方法和变量的途径。
+
+最后，当它不再需要的时候，la'ji'shou
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxNjQ3ODI1MiwtMjE0NTIyOTUyOSwtOT
-Y4NzgyMDg3LDE1ODI3NDU2NDEsNzIyOTA2Mjg5XX0=
+eyJoaXN0b3J5IjpbLTEwNTg0NjM4NjksLTIxNDUyMjk1MjksLT
+k2ODc4MjA4NywxNTgyNzQ1NjQxLDcyMjkwNjI4OV19
 -->
