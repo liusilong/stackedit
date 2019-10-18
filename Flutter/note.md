@@ -11,6 +11,7 @@
 	```shell
 	rm ./flutter/bin/cache/lockfile
 	```
+这是我在 offLine 的时候写的文字
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyNjU4NzM2MV19
+eyJoaXN0b3J5IjpbMTQyNjM2MDI1MywyMTI2NTg3MzYxXX0=
 -->
