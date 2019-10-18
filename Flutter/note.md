@@ -12,6 +12,10 @@
 	rm ./flutter/bin/cache/lockfile
 	```
 这是我在 offLine 的时候写的文字
+
+社会生物的感受与情绪
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyNjM2MDI1MywyMTI2NTg3MzYxXX0=
+eyJoaXN0b3J5IjpbMTE4Njc5MDIzMiwyMTI2NTg3MzYxXX0=
 -->
